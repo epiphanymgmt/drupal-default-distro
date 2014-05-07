@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the EMG Base feature.
+ */
+
+include_once 'emg_base.features.inc';
