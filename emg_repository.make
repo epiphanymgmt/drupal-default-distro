@@ -7,7 +7,7 @@ projects[drupal][version] = "7.27"
 ; Modules
 projects[ctools][version] = "1.4"
 
-projects[features][version] = "2.0"
+projects[profiler_builder][version] = "1.0"
 
 projects[views][version] = "3.7"
 
