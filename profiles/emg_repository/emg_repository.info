@@ -1,13 +1,22 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
-description = "This is the Base Profile for EMG's Drupal Environment"
+description = "EMG Base Drupal Environment"
 exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
 ; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_views
+dependencies[] = menu_admin_per_menu
+; CCK
+dependencies[] = cck
 ; Chaos tool suite
 dependencies[] = ctools
+dependencies[] = ctools_ajax_sample
 ; Core
 dependencies[] = block
 dependencies[] = color
@@ -35,9 +44,30 @@ dependencies[] = shortcut
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
-dependencies[] = toolbar
 dependencies[] = update
 dependencies[] = user
+; Frontend
+dependencies[] = modernizr
+; Markup
+dependencies[] = html5_tools
+; Other
+dependencies[] = elements
+dependencies[] = entity
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = token
+; User interface
+dependencies[] = ckeditor
+dependencies[] = elfinder
+dependencies[] = viewport
 ; Views
 dependencies[] = views
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
 
