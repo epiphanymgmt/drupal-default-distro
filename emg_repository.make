@@ -46,8 +46,8 @@ projects[webform][version] = "3.20"
 projects[xmlsitemap][version] = "2.0"
 
 ;	Libraries
-libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/Studio-42/elFinder"
-libraries[ckeditor][directory_name] = "elfinder"
-libraries[ckeditor][type] = "library"
+libraries[elfinder][download][type] = "get"
+libraries[elfinder][download][url] = "https://github.com/Studio-42/elFinder/archive/2.x.zip"
+libraries[elfinder][directory_name] = "elfinder"
+libraries[elfinder][destination] = "libraries"
 
