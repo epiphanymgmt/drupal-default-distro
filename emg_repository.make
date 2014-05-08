@@ -37,11 +37,6 @@ projects[redirect][version] = "1.0-rc1"
 
 projects[token][version] = "1.5"
 
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[Viewport][download][type] = ""
-projects[Viewport][download][url] = ""
-projects[Viewport][type] = "module"
 projects[Viewport][version] = "1.1"
 
 projects[views][version] = "3.7"
@@ -49,4 +44,10 @@ projects[views][version] = "3.7"
 projects[webform][version] = "3.20"
 
 projects[xmlsitemap][version] = "2.0"
+
+;	Libraries
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "https://github.com/Studio-42/elFinder"
+libraries[ckeditor][directory_name] = "elfinder"
+libraries[ckeditor][type] = "library"
 
