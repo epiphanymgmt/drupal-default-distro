@@ -2,12 +2,51 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.27"
+projects[drupal][version] = "7.28"
 
 ; Modules
+projects[views_bulk_operations][version] = "3.2"
+
+projects[admin_menu][version] = "3.0-rc4"
+
+projects[admin_views][version] = "1.2"
+
 projects[ctools][version] = "1.4"
+
+projects[cck][version] = "3.0-alpha3"
+
+projects[ckeditor][version] = "1.14"
+
+projects[elements][version] = "1.4"
+
+projects[elfinder][version] = "0.8"
+
+projects[entity][version] = "1.5"
+
+projects[html5_tools][version] = "1.2"
+
+projects[menu_admin_per_menu][version] = "1.0"
+
+projects[modernizr][version] = "3.2"
+
+projects[pathauto][version] = "1.2"
 
 projects[profiler_builder][version] = "1.0"
 
+projects[redirect][version] = "1.0-rc1"
+
+projects[token][version] = "1.5"
+
+; Please fill the following out. Type may be one of get, git, bzr or svn,
+; and url is the url of the download.
+projects[Viewport][download][type] = ""
+projects[Viewport][download][url] = ""
+projects[Viewport][type] = "module"
+projects[Viewport][version] = "1.1"
+
 projects[views][version] = "3.7"
+
+projects[webform][version] = "3.20"
+
+projects[xmlsitemap][version] = "2.0"
 
