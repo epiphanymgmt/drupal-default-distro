@@ -19,6 +19,9 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
+projects[deploy][version] = "2.0-alpha2"
+projects[deploy][subdir] = "contrib"
+
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
@@ -40,14 +43,23 @@ projects[elements][subdir] = "contrib"
 projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
+projects[entity_dependency][version] = "1.0-alpha1"
+projects[entity_dependency][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
 projects[redirect][subdir] = "contrib"
 
+projects[strongarm][version] = "2.0"
+projects[strongarm][subdir] = "contrib"
+
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
+
+projects[uuid][version] = "1.0-alpha5"
+projects[uuid][subdir] = "contrib"
 
 projects[Viewport][version] = "1.1"
 projects[Viewport][subdir] = "contrib"

@@ -221,6 +221,13 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'administer deployments'.
+  $permissions['administer deployments'] = array(
+    'name' => 'administer deployments',
+    'roles' => array(),
+    'module' => 'deploy',
+  );
+
   // Exported permission: 'administer features'.
   $permissions['administer features'] = array(
     'name' => 'administer features',
@@ -445,6 +452,13 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
+  );
+
+  // Exported permission: 'administer uuid'.
+  $permissions['administer uuid'] = array(
+    'name' => 'administer uuid',
+    'roles' => array(),
+    'module' => 'uuid',
   );
 
   // Exported permission: 'administer viewport'.

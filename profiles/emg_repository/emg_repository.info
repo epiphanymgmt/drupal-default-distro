@@ -46,6 +46,8 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
+; Deployment
+dependencies[] = deploy
 ; Frontend
 dependencies[] = modernizr
 ; Markup
@@ -53,9 +55,13 @@ dependencies[] = html5_tools
 ; Other
 dependencies[] = elements
 dependencies[] = entity
+dependencies[] = entity_dependency
 dependencies[] = pathauto
 dependencies[] = redirect
+dependencies[] = strongarm
 dependencies[] = token
+; UUID
+dependencies[] = uuid
 ; User interface
 dependencies[] = ckeditor
 dependencies[] = elfinder

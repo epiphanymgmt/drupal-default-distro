@@ -25,6 +25,8 @@ projects[cck][version] = "3.0-alpha3"
 
 projects[ckeditor][version] = "1.14"
 
+projects[deploy][version] = "2.0-alpha2"
+
 projects[elements][version] = "1.4"
 
 projects[elfinder][version] = "0.8"
@@ -45,7 +47,11 @@ projects[profiler_builder][version] = "1.0"
 
 projects[redirect][version] = "1.0-rc1"
 
+projects[strongarm][version] = "2.0"
+
 projects[token][version] = "1.5"
+
+projects[uuid][version] = "1.0-alpha5"
 
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
