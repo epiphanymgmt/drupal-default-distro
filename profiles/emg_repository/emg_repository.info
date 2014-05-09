@@ -70,4 +70,6 @@ dependencies[] = webform
 dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
+; Features
+dependencies[] = features
 

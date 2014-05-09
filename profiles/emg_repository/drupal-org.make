@@ -22,6 +22,9 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
+projects[features][version] = "2.0"
+projects[features][subdir] = "contrib"
+
 projects[modernizr][version] = "3.2"
 projects[modernizr][subdir] = "contrib"
 
