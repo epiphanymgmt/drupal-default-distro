@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the EMG Repository Features feature.
+ */
+
+include_once 'emg_repository_features.features.inc';

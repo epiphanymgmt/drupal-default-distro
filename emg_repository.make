@@ -31,6 +31,8 @@ projects[elfinder][version] = "0.8"
 
 projects[entity][version] = "1.5"
 
+projects[features][version] = "2.0"
+
 projects[html5_tools][version] = "1.2"
 
 projects[menu_admin_per_menu][version] = "1.0"
