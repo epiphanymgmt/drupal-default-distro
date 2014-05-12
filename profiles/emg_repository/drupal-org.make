@@ -19,9 +19,6 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[deploy][version] = "2.0-alpha2"
-projects[deploy][subdir] = "contrib"
-
 projects[profiler_builder][version] = "1.0"
 projects[profiler_builder][subdir] = "contrib"
 
@@ -36,6 +33,9 @@ projects[modernizr][subdir] = "contrib"
 
 projects[html5_tools][version] = "1.2"
 projects[html5_tools][subdir] = "contrib"
+
+projects[node_export][version] = "3.0"
+projects[node_export][subdir] = "contrib"
 
 projects[elements][version] = "1.4"
 projects[elements][subdir] = "contrib"

@@ -221,13 +221,6 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'administer deployments'.
-  $permissions['administer deployments'] = array(
-    'name' => 'administer deployments',
-    'roles' => array(),
-    'module' => 'deploy',
-  );
-
   // Exported permission: 'administer features'.
   $permissions['administer features'] = array(
     'name' => 'administer features',
@@ -457,7 +450,9 @@ function emg_repository_features_user_default_permissions() {
   // Exported permission: 'administer uuid'.
   $permissions['administer uuid'] = array(
     'name' => 'administer uuid',
-    'roles' => array(),
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
     'module' => 'uuid',
   );
 
@@ -836,6 +831,24 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'taxonomy',
   );
 
+  // Exported permission: 'export nodes'.
+  $permissions['export nodes'] = array(
+    'name' => 'export nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
+  );
+
+  // Exported permission: 'export own nodes'.
+  $permissions['export own nodes'] = array(
+    'name' => 'export own nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
+  );
+
   // Exported permission: 'extract files from archive'.
   $permissions['extract files from archive'] = array(
     'name' => 'extract files from archive',
@@ -980,6 +993,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: 'use PHP to import nodes'.
+  $permissions['use PHP to import nodes'] = array(
+    'name' => 'use PHP to import nodes',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'node_export',
   );
 
   // Exported permission: 'use advanced search'.

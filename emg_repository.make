@@ -25,8 +25,6 @@ projects[cck][version] = "3.0-alpha3"
 
 projects[ckeditor][version] = "1.14"
 
-projects[deploy][version] = "2.0-alpha2"
-
 projects[elements][version] = "1.4"
 
 projects[elfinder][version] = "0.8"
@@ -42,6 +40,8 @@ projects[html5_tools][version] = "1.2"
 projects[menu_admin_per_menu][version] = "1.0"
 
 projects[modernizr][version] = "3.2"
+
+projects[node_export][version] = "3.0"
 
 projects[pathauto][version] = "1.2"
 

@@ -46,12 +46,12 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
-; Deployment
-dependencies[] = deploy
 ; Frontend
 dependencies[] = modernizr
 ; Markup
 dependencies[] = html5_tools
+; Node export
+dependencies[] = node_export
 ; Other
 dependencies[] = elements
 dependencies[] = entity
