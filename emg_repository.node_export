@@ -1,0 +1,104 @@
+array(
+  (object) array(
+      'vid' => '1',
+      'uid' => '1',
+      'title' => 'Page not Found',
+      'log' => '',
+      'status' => '1',
+      'comment' => '1',
+      'promote' => '0',
+      'sticky' => '0',
+      'vuuid' => '42ad5332-fae3-4b80-a413-9b45b7a8bd14',
+      'nid' => '1',
+      'type' => 'page',
+      'language' => 'und',
+      'created' => '1399905803',
+      'changed' => '1399905803',
+      'tnid' => '0',
+      'translate' => '0',
+      'uuid' => 'cab45c87-09c3-4514-9b8a-30f91e3020d1',
+      'revision_timestamp' => '1399905803',
+      'revision_uid' => '1',
+      'body' => array(
+        'und' => array(
+          array(
+            'value' => "<p>We're Sorry, but that page was not found.</p>\r\n",
+            'summary' => '',
+            'format' => 'filtered_html',
+            'safe_value' => "<p>We're Sorry, but that page was not found.</p>\n",
+            'safe_summary' => '',
+          ),
+        ),
+      ),
+      'rdf_mapping' => array(
+        'rdftype' => array(
+          'foaf:Document',
+        ),
+        'title' => array(
+          'predicates' => array(
+            'dc:title',
+          ),
+        ),
+        'created' => array(
+          'predicates' => array(
+            'dc:date',
+            'dc:created',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'changed' => array(
+          'predicates' => array(
+            'dc:modified',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'body' => array(
+          'predicates' => array(
+            'content:encoded',
+          ),
+        ),
+        'uid' => array(
+          'predicates' => array(
+            'sioc:has_creator',
+          ),
+          'type' => 'rel',
+        ),
+        'name' => array(
+          'predicates' => array(
+            'foaf:name',
+          ),
+        ),
+        'comment_count' => array(
+          'predicates' => array(
+            'sioc:num_replies',
+          ),
+          'datatype' => 'xsd:integer',
+        ),
+        'last_activity' => array(
+          'predicates' => array(
+            'sioc:last_activity_date',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+      ),
+      'cid' => '0',
+      'last_comment_timestamp' => '1399905803',
+      'last_comment_name' => NULL,
+      'last_comment_uid' => '1',
+      'comment_count' => '0',
+      'name' => 'admin',
+      'picture' => '0',
+      'data' => 'a:1:{s:7:"overlay";i:1;}',
+      'path' => array(
+        'pid' => '2',
+        'source' => 'node/1',
+        'alias' => 'page-not-found',
+        'language' => 'und',
+      ),
+      'menu' => NULL,
+      'node_export_drupal_version' => '7',
+    ),
+)
