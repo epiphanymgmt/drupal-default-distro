@@ -41,6 +41,8 @@ projects[menu_admin_per_menu][version] = "1.0"
 
 projects[modernizr][version] = "3.2"
 
+projects[image_resize_filter][version] = "1.14"
+
 projects[node_export][version] = "3.0"
 
 projects[pathauto][version] = "1.2"

@@ -48,6 +48,8 @@ dependencies[] = update
 dependencies[] = user
 ; Frontend
 dependencies[] = modernizr
+; Input filters
+dependencies[] = image_resize_filter
 ; Markup
 dependencies[] = html5_tools
 ; Node export

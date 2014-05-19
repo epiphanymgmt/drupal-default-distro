@@ -31,6 +31,9 @@ projects[features][subdir] = "contrib"
 projects[modernizr][version] = "3.2"
 projects[modernizr][subdir] = "contrib"
 
+projects[image_resize_filter][version] = "1.14"
+projects[image_resize_filter][subdir] = "contrib"
+
 projects[html5_tools][version] = "1.2"
 projects[html5_tools][subdir] = "contrib"
 

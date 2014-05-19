@@ -29,6 +29,7 @@ dependencies[] = filter
 dependencies[] = help
 dependencies[] = html5_tools
 dependencies[] = image
+dependencies[] = image_resize_filter
 dependencies[] = list
 dependencies[] = menu
 dependencies[] = menu_admin_per_menu

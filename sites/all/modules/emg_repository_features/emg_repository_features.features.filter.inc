@@ -25,6 +25,19 @@ function emg_repository_features_filter_default_formats() {
           'filter_url_length' => 72,
         ),
       ),
+      'image_resize_filter' => array(
+        'weight' => 0,
+        'status' => 1,
+        'settings' => array(
+          'link' => 1,
+          'link_class' => '',
+          'link_rel' => '',
+          'image_locations' => array(
+            'local' => 'local',
+            'remote' => 'remote',
+          ),
+        ),
+      ),
       'filter_html' => array(
         'weight' => 1,
         'status' => 1,
@@ -62,10 +75,18 @@ function emg_repository_features_filter_default_formats() {
           'filter_url_length' => 72,
         ),
       ),
-      'filter_autop' => array(
-        'weight' => 1,
+      'image_resize_filter' => array(
+        'weight' => 0,
         'status' => 1,
-        'settings' => array(),
+        'settings' => array(
+          'link' => 1,
+          'link_class' => '',
+          'link_rel' => '',
+          'image_locations' => array(
+            'local' => 'local',
+            'remote' => 'remote',
+          ),
+        ),
       ),
       'filter_htmlcorrector' => array(
         'weight' => 10,
