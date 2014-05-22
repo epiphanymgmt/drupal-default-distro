@@ -154,7 +154,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n5zj62';
+  $strongarm->value = 'n5zjin';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -210,14 +210,14 @@ function emg_repository_features_strongarm() {
       'field_instance' => '08fc6b07ee22e7c52010e5fe8e8f1c7c',
       'filter' => '9a49d872d3589356fc2b6b7b9fe9b840',
       'menu_custom' => '197d07d37eacad2beba6ceb6d6080cfd',
-      'menu_links' => 'ad9635357f3412f483cc4b75fde464b5',
+      'menu_links' => '21d8c656021b8fe88b8216dffc70e66b',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => 'c1ef2bd6222d01d284890b7535e58b39',
-      'dependencies' => '49186c7c2e164846484f6c4748829f83',
+      'user_permission' => 'a57a4aec623fff3be0ff2a0943617bb6',
+      'dependencies' => '579c6985733f2dd54bce125bdf8e5dea',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
-      'variable' => '68f355d6b3c9cca8b27a0a3b161fe223',
+      'variable' => '2b4a02ee5980532005c0e954c94c9f79',
     ),
   );
   $export['features_codecache'] = $strongarm;
