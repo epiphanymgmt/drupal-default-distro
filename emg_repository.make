@@ -67,7 +67,7 @@ projects[Viewport][download][url] = "http://git.drupal.org/project/Viewport.git"
 projects[Viewport][type] = "module"
 projects[Viewport][version] = "1.1"
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[webform][version] = "3.20"
 
