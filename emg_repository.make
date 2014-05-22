@@ -45,6 +45,8 @@ projects[image_resize_filter][version] = "1.14"
 
 projects[node_export][version] = "3.0"
 
+projects[node_clone][version] = "1.0-rc2"
+
 projects[pathauto][version] = "1.2"
 
 projects[profiler_builder][version] = "1.0"

@@ -55,6 +55,7 @@ dependencies[] = html5_tools
 ; Node export
 dependencies[] = node_export
 ; Other
+dependencies[] = clone
 dependencies[] = elements
 dependencies[] = entity
 dependencies[] = entity_dependency

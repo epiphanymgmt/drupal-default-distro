@@ -49,6 +49,9 @@ projects[entity][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
 
+projects[node_clone][version] = "1.0-rc2"
+projects[node_clone][subdir] = "contrib"
+
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
@@ -73,7 +76,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[elfinder][version] = "0.8"
 projects[elfinder][subdir] = "contrib"
 
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"

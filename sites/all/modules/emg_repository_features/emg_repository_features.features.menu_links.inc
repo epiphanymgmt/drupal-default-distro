@@ -791,6 +791,27 @@ function emg_repository_features_menu_default_menu_links() {
     'customized' => 0,
     'parent_identifier' => 'management_menus:admin/structure/menu',
   );
+  // Exported menu link: management_node-clone-module:admin/config/content/clone
+  $menu_links['management_node-clone-module:admin/config/content/clone'] = array(
+    'menu_name' => 'management',
+    'link_path' => 'admin/config/content/clone',
+    'router_path' => 'admin/config/content/clone',
+    'link_title' => 'Node clone module',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Allows users to clone (copy then edit) an existing node.',
+      ),
+      'identifier' => 'management_node-clone-module:admin/config/content/clone',
+    ),
+    'module' => 'system',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
+    'parent_identifier' => 'management_content-authoring:admin/config/content',
+  );
   // Exported menu link: management_node-export:admin/config/content/node_export
   $menu_links['management_node-export:admin/config/content/node_export'] = array(
     'menu_name' => 'management',
@@ -1772,6 +1793,7 @@ function emg_repository_features_menu_default_menu_links() {
   t('Modernizr settings');
   t('Modules');
   t('Navigation');
+  t('Node clone module');
   t('Node export');
   t('Node export: import');
   t('People');
