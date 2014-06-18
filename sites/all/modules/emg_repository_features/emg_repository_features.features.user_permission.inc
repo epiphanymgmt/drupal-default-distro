@@ -58,18 +58,6 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'webform',
   );
 
-  // Exported permission: 'access comments'.
-  $permissions['access comments'] = array(
-    'name' => 'access comments',
-    'roles' => array(
-      'Sub Admin' => 'Sub Admin',
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'access content'.
   $permissions['access content'] = array(
     'name' => 'access content',
@@ -166,6 +154,16 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'access workbench'.
+  $permissions['access workbench'] = array(
+    'name' => 'access workbench',
+    'roles' => array(
+      'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench',
+  );
+
   // Exported permission: 'add files to archive'.
   $permissions['add files to archive'] = array(
     'name' => 'add files to archive',
@@ -201,15 +199,6 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'ckeditor',
-  );
-
-  // Exported permission: 'administer comments'.
-  $permissions['administer comments'] = array(
-    'name' => 'administer comments',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'comment',
   );
 
   // Exported permission: 'administer content types'.
@@ -391,6 +380,15 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'system',
   );
 
+  // Exported permission: 'administer smtp module'.
+  $permissions['administer smtp module'] = array(
+    'name' => 'administer smtp module',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'smtp',
+  );
+
   // Exported permission: 'administer software updates'.
   $permissions['administer software updates'] = array(
     'name' => 'administer software updates',
@@ -474,6 +472,33 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'views',
   );
 
+  // Exported permission: 'administer workbench'.
+  $permissions['administer workbench'] = array(
+    'name' => 'administer workbench',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench',
+  );
+
+  // Exported permission: 'administer workbench emails'.
+  $permissions['administer workbench emails'] = array(
+    'name' => 'administer workbench emails',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_email',
+  );
+
+  // Exported permission: 'administer workbench moderation'.
+  $permissions['administer workbench moderation'] = array(
+    'name' => 'administer workbench moderation',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
   // Exported permission: 'administer xmlsitemap'.
   $permissions['administer xmlsitemap'] = array(
     'name' => 'administer xmlsitemap',
@@ -499,6 +524,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'bypass workbench moderation'.
+  $permissions['bypass workbench moderation'] = array(
+    'name' => 'bypass workbench moderation',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
   );
 
   // Exported permission: 'cancel account'.
@@ -800,16 +834,6 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit own comments'.
-  $permissions['edit own comments'] = array(
-    'name' => 'edit own comments',
-    'roles' => array(
-      'Sub Admin' => 'Sub Admin',
-      'administrator' => 'administrator',
-    ),
-    'module' => 'comment',
-  );
-
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
@@ -914,6 +938,33 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'features',
   );
 
+  // Exported permission: 'moderate content from draft to needs_review'.
+  $permissions['moderate content from draft to needs_review'] = array(
+    'name' => 'moderate content from draft to needs_review',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'moderate content from needs_review to draft'.
+  $permissions['moderate content from needs_review to draft'] = array(
+    'name' => 'moderate content from needs_review to draft',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'moderate content from needs_review to published'.
+  $permissions['moderate content from needs_review to published'] = array(
+    'name' => 'moderate content from needs_review to published',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
   // Exported permission: 'notify of path changes'.
   $permissions['notify of path changes'] = array(
     'name' => 'notify of path changes',
@@ -931,17 +982,6 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'elfinder',
-  );
-
-  // Exported permission: 'post comments'.
-  $permissions['post comments'] = array(
-    'name' => 'post comments',
-    'roles' => array(
-      'Sub Admin' => 'Sub Admin',
-      'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
   );
 
   // Exported permission: 'rename files and directories'.
@@ -991,17 +1031,6 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'user',
-  );
-
-  // Exported permission: 'skip comment approval'.
-  $permissions['skip comment approval'] = array(
-    'name' => 'skip comment approval',
-    'roles' => array(
-      'Sub Admin' => 'Sub Admin',
-      'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'comment',
   );
 
   // Exported permission: 'switch shortcut sets'.
@@ -1062,6 +1091,55 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'filter',
+  );
+
+  // Exported permission: 'use workbench_moderation my drafts tab'.
+  $permissions['use workbench_moderation my drafts tab'] = array(
+    'name' => 'use workbench_moderation my drafts tab',
+    'roles' => array(
+      'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'use workbench_moderation needs review tab'.
+  $permissions['use workbench_moderation needs review tab'] = array(
+    'name' => 'use workbench_moderation needs review tab',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'view all unpublished content'.
+  $permissions['view all unpublished content'] = array(
+    'name' => 'view all unpublished content',
+    'roles' => array(
+      'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'view moderation history'.
+  $permissions['view moderation history'] = array(
+    'name' => 'view moderation history',
+    'roles' => array(
+      'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
+  );
+
+  // Exported permission: 'view moderation messages'.
+  $permissions['view moderation messages'] = array(
+    'name' => 'view moderation messages',
+    'roles' => array(
+      'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'workbench_moderation',
   );
 
   // Exported permission: 'view own unpublished content'.

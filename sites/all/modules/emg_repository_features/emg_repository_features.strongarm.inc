@@ -21,7 +21,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'additional_settings__active_tab_page';
-  $strongarm->value = 'edit-submission';
+  $strongarm->value = 'edit-workflow';
   $export['additional_settings__active_tab_page'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -147,21 +147,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1400778246;
+  $strongarm->value = 1403102744;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n5zjin';
+  $strongarm->value = 'n7dflp';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1400777686;
+  $strongarm->value = 1403102747;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -202,10 +202,17 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'elfinder_settings_filesystem_fileurl';
+  $strongarm->value = 'false';
+  $export['elfinder_settings_filesystem_fileurl'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
     'emg_repository_features' => array(
-      'ckeditor_profile' => 'c1a4bbdd6e282aed3d8b9ec365146b5e',
+      'ckeditor_profile' => '48ba2a280ce2ee3bc391924c5d973db6',
       'field_base' => '56aaf3d093a21a998d3cd4e87ddf16ae',
       'field_instance' => '08fc6b07ee22e7c52010e5fe8e8f1c7c',
       'filter' => '9a49d872d3589356fc2b6b7b9fe9b840',
@@ -274,6 +281,15 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'mail_system';
+  $strongarm->value = array(
+    'default-system' => 'SmtpMailSystem',
+  );
+  $export['mail_system'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_expanded';
   $strongarm->value = array();
   $export['menu_expanded'] = $strongarm;
@@ -284,43 +300,41 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'menu_masks';
   $strongarm->value = array(
     0 => 501,
-    1 => 493,
-    2 => 250,
-    3 => 247,
-    4 => 246,
-    5 => 245,
-    6 => 125,
-    7 => 124,
-    8 => 123,
-    9 => 122,
-    10 => 121,
-    11 => 117,
-    12 => 63,
-    13 => 62,
-    14 => 61,
-    15 => 60,
-    16 => 59,
-    17 => 58,
-    18 => 45,
-    19 => 44,
-    20 => 31,
-    21 => 30,
-    22 => 29,
-    23 => 28,
-    24 => 24,
-    25 => 22,
-    26 => 21,
-    27 => 15,
-    28 => 14,
-    29 => 13,
-    30 => 11,
-    31 => 10,
-    32 => 7,
-    33 => 6,
-    34 => 5,
-    35 => 3,
-    36 => 2,
-    37 => 1,
+    1 => 250,
+    2 => 245,
+    3 => 125,
+    4 => 124,
+    5 => 123,
+    6 => 122,
+    7 => 121,
+    8 => 117,
+    9 => 63,
+    10 => 62,
+    11 => 61,
+    12 => 60,
+    13 => 59,
+    14 => 58,
+    15 => 45,
+    16 => 44,
+    17 => 42,
+    18 => 31,
+    19 => 30,
+    20 => 29,
+    21 => 28,
+    22 => 24,
+    23 => 22,
+    24 => 21,
+    25 => 15,
+    26 => 14,
+    27 => 13,
+    28 => 11,
+    29 => 10,
+    30 => 7,
+    31 => 6,
+    32 => 5,
+    33 => 3,
+    34 => 2,
+    35 => 1,
   );
   $export['menu_masks'] = $strongarm;
 
@@ -384,7 +398,8 @@ function emg_repository_features_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_page';
   $strongarm->value = array(
-    0 => 'status',
+    0 => 'moderation',
+    1 => 'revision',
   );
   $export['node_options_page'] = $strongarm;
 
@@ -413,7 +428,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_submitted_page';
-  $strongarm->value = FALSE;
+  $strongarm->value = 0;
   $export['node_submitted_page'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -472,7 +487,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_403';
-  $strongarm->value = 'node/1';
+  $strongarm->value = 'r4032login';
   $export['site_403'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -520,6 +535,83 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_allowhtml';
+  $strongarm->value = 1;
+  $export['smtp_allowhtml'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_debugging';
+  $strongarm->value = 1;
+  $export['smtp_debugging'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_from';
+  $strongarm->value = '';
+  $export['smtp_from'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_fromname';
+  $strongarm->value = '';
+  $export['smtp_fromname'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_host';
+  $strongarm->value = 'smtp.gmail.com';
+  $export['smtp_host'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_hostbackup';
+  $strongarm->value = '';
+  $export['smtp_hostbackup'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_on';
+  $strongarm->value = '0';
+  $export['smtp_on'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_password';
+  $strongarm->value = 'epiphany';
+  $export['smtp_password'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_port';
+  $strongarm->value = '465';
+  $export['smtp_port'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_protocol';
+  $strongarm->value = 'ssl';
+  $export['smtp_protocol'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'smtp_username';
+  $strongarm->value = 'solutions@epiphanymgmt.com';
+  $export['smtp_username'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_default';
   $strongarm->value = 'bartik';
   $export['theme_default'] = $strongarm;
@@ -528,8 +620,15 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1400778058;
+  $strongarm->value = 1403102759;
   $export['update_last_check'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'update_last_email_notification';
+  $strongarm->value = 1403102744;
+  $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -630,6 +729,29 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'viewport_width';
   $strongarm->value = 'device-width';
   $export['viewport_width'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'views_block_hashes';
+  $strongarm->value = array(
+    '9cf22433e0efbd8b206c8e4c2edb177c' => 'workbench_recent_content-block_1',
+  );
+  $export['views_block_hashes'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_email_queue_mail';
+  $strongarm->value = 0;
+  $export['workbench_email_queue_mail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_page';
+  $strongarm->value = 'needs_review';
+  $export['workbench_moderation_default_state_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

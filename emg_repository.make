@@ -35,6 +35,8 @@ projects[entity_dependency][version] = "1.0-alpha1"
 
 projects[features][version] = "2.0"
 
+projects[smtp][version] = "1.0"
+
 projects[html5_tools][version] = "1.2"
 
 projects[menu_admin_per_menu][version] = "1.0"
@@ -47,7 +49,11 @@ projects[node_export][version] = "3.0"
 
 projects[node_clone][version] = "1.0-rc2"
 
+projects[normalize][version] = "1.6"
+
 projects[pathauto][version] = "1.2"
+
+projects[r4032login][version] = "1.7"
 
 projects[profiler_builder][version] = "1.0"
 
@@ -67,8 +73,18 @@ projects[Viewport][download][url] = "http://git.drupal.org/project/Viewport.git"
 projects[Viewport][type] = "module"
 projects[Viewport][version] = "1.1"
 
+projects[jquery_update][version] = "2.4"
+
 projects[views][version] = "3.8"
 
 projects[webform][version] = "3.20"
 
+projects[workbench][version] = "1.2"
+
+projects[workbench_email][version] = "3.2"
+
+projects[workbench_moderation][version] = "1.3"
+
 projects[xmlsitemap][version] = "2.0"
+
+projects[emg_drupal_fixes][version] = "1.0"

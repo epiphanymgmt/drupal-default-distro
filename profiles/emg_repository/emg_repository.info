@@ -1,6 +1,6 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
-description = "EMG Base Drupal Environment"
+description = ""
 exclusive = "1"
 core = "7.x"
 ; ----------
@@ -20,7 +20,6 @@ dependencies[] = ctools_ajax_sample
 ; Core
 dependencies[] = block
 dependencies[] = color
-dependencies[] = comment
 dependencies[] = contextual
 dependencies[] = dashboard
 dependencies[] = dblog
@@ -50,6 +49,8 @@ dependencies[] = user
 dependencies[] = modernizr
 ; Input filters
 dependencies[] = image_resize_filter
+; Mail
+dependencies[] = smtp
 ; Markup
 dependencies[] = html5_tools
 ; Node export
@@ -57,9 +58,12 @@ dependencies[] = node_export
 ; Other
 dependencies[] = clone
 dependencies[] = elements
+dependencies[] = emg_drupal_fixes
 dependencies[] = entity
 dependencies[] = entity_dependency
+dependencies[] = normalize
 dependencies[] = pathauto
+dependencies[] = r4032login
 dependencies[] = redirect
 dependencies[] = strongarm
 dependencies[] = token
@@ -68,6 +72,7 @@ dependencies[] = uuid
 ; User interface
 dependencies[] = ckeditor
 dependencies[] = elfinder
+dependencies[] = jquery_update
 dependencies[] = viewport
 ; Views
 dependencies[] = views
@@ -75,6 +80,10 @@ dependencies[] = views_bulk_operations
 dependencies[] = views_ui
 ; Webform
 dependencies[] = webform
+; Workbench
+dependencies[] = workbench
+dependencies[] = workbench_email
+dependencies[] = workbench_moderation
 ; XML sitemap
 dependencies[] = xmlsitemap
 dependencies[] = xmlsitemap_menu
