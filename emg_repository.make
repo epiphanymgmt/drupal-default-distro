@@ -86,5 +86,3 @@ projects[workbench_email][version] = "3.2"
 projects[workbench_moderation][version] = "1.3"
 
 projects[xmlsitemap][version] = "2.0"
-
-projects[emg_drupal_fixes][version] = "1.0"
