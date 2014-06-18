@@ -147,14 +147,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1403102744;
+  $strongarm->value = 1403115383;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n7dflp';
+  $strongarm->value = 'n7dh2s';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -214,17 +214,17 @@ function emg_repository_features_strongarm() {
     'emg_repository_features' => array(
       'ckeditor_profile' => '48ba2a280ce2ee3bc391924c5d973db6',
       'field_base' => '56aaf3d093a21a998d3cd4e87ddf16ae',
-      'field_instance' => '08fc6b07ee22e7c52010e5fe8e8f1c7c',
+      'field_instance' => '8b02508f25f2175f29104046886572da',
       'filter' => '9a49d872d3589356fc2b6b7b9fe9b840',
       'menu_custom' => '197d07d37eacad2beba6ceb6d6080cfd',
-      'menu_links' => '21d8c656021b8fe88b8216dffc70e66b',
+      'menu_links' => '5ca1324bf5a8f335c6a8929000d8965c',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => 'a57a4aec623fff3be0ff2a0943617bb6',
-      'dependencies' => '579c6985733f2dd54bce125bdf8e5dea',
+      'user_permission' => '073356a92ad46c29265501fcc6f5f7b2',
+      'dependencies' => '312cd55d09d6d28ccdb06bd910eb4b5c',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
-      'variable' => '2b4a02ee5980532005c0e954c94c9f79',
+      'variable' => '0dda7bfd61067ee51479987a70b6d739',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -242,6 +242,27 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'features_semaphore';
   $strongarm->value = array();
   $export['features_semaphore'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'file_default_scheme';
+  $strongarm->value = 'public';
+  $export['file_default_scheme'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'file_private_path';
+  $strongarm->value = 'sites/default/files/private';
+  $export['file_private_path'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'file_public_path';
+  $strongarm->value = 'sites/default/files';
+  $export['file_public_path'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -620,7 +641,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1403102759;
+  $strongarm->value = 1403115399;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
