@@ -1,0 +1,6 @@
+name = EMG Drupal Fixes
+description = "This fixes wierd anomalies and bugs (CSS Mostly) that have not been fixed, patched, repostorized by the drupal community and would preferable not to have to be un expectedly fixed on every site going forward."
+package = Other
+core = 7.x
+
+stylesheets[all][] = emg_drupal_fixes.css

@@ -1,0 +1,8 @@
+/* CSS Document */
+
+tbody,
+th{
+	border: none;
+	padding: inherit;
+	text-align: inherit;
+}
