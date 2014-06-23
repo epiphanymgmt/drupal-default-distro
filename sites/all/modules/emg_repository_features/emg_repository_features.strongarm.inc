@@ -139,6 +139,13 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'configurable_timezones';
+  $strongarm->value = 1;
+  $export['configurable_timezones'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'cron_key';
   $strongarm->value = 'vK8HFtCmJfie6hhDfH4omx-z5Ua9WbOE18iHWCPvXBY';
   $export['cron_key'] = $strongarm;
@@ -147,7 +154,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1403115383;
+  $strongarm->value = 1403548113;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -161,15 +168,22 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1403102747;
+  $strongarm->value = 1403536009;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'date_default_timezone';
-  $strongarm->value = 'UTC';
+  $strongarm->value = 'America/Detroit';
   $export['date_default_timezone'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'date_first_day';
+  $strongarm->value = '0';
+  $export['date_first_day'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -209,6 +223,13 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'empty_timezone_message';
+  $strongarm->value = 0;
+  $export['empty_timezone_message'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
     'emg_repository_features' => array(
@@ -217,7 +238,7 @@ function emg_repository_features_strongarm() {
       'field_instance' => '8b02508f25f2175f29104046886572da',
       'filter' => '9a49d872d3589356fc2b6b7b9fe9b840',
       'menu_custom' => '197d07d37eacad2beba6ceb6d6080cfd',
-      'menu_links' => '5ca1324bf5a8f335c6a8929000d8965c',
+      'menu_links' => '4c3eba0df9af8142cd5c5661fc250530',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
       'user_permission' => '073356a92ad46c29265501fcc6f5f7b2',
@@ -522,7 +543,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_default_country';
-  $strongarm->value = '';
+  $strongarm->value = 'US';
   $export['site_default_country'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -641,14 +662,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1403115399;
+  $strongarm->value = 1403548118;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1403102744;
+  $strongarm->value = 1403536005;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -666,6 +687,13 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'user_admin_role';
   $strongarm->value = '3';
   $export['user_admin_role'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'user_default_timezone';
+  $strongarm->value = '0';
+  $export['user_default_timezone'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
