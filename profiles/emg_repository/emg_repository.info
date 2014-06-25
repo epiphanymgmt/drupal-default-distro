@@ -1,6 +1,6 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
-description = ""
+description = "EMG Base Drupal Environment"
 core = "7.x"
 ; ----------
 ; Dependencies
