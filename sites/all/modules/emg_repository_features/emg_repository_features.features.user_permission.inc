@@ -127,6 +127,24 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'webform',
   );
 
+  // Exported permission: 'access private files'.
+  $permissions['access private files'] = array(
+    'name' => 'access private files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'access public files'.
+  $permissions['access public files'] = array(
+    'name' => 'access public files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
   // Exported permission: 'access site in maintenance mode'.
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
@@ -143,6 +161,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'system',
+  );
+
+  // Exported permission: 'access unmanaged files'.
+  $permissions['access unmanaged files'] = array(
+    'name' => 'access unmanaged files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
   );
 
   // Exported permission: 'access user profiles'.
@@ -571,6 +598,15 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'clone',
   );
 
+  // Exported permission: 'copy to clipboard'.
+  $permissions['copy to clipboard'] = array(
+    'name' => 'copy to clipboard',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
   // Exported permission: 'create article content'.
   $permissions['create article content'] = array(
     'name' => 'create article content',
@@ -646,6 +682,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'shortcut',
+  );
+
+  // Exported permission: 'cut to clipboard'.
+  $permissions['cut to clipboard'] = array(
+    'name' => 'cut to clipboard',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
   );
 
   // Exported permission: 'delete all webform submissions'.
@@ -765,6 +810,22 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'admin_menu',
   );
 
+  // Exported permission: 'download all uploaded files'.
+  $permissions['download all uploaded files'] = array(
+    'name' => 'download all uploaded files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'download own uploaded files'.
+  $permissions['download own uploaded files'] = array(
+    'name' => 'download own uploaded files',
+    'roles' => array(),
+    'module' => 'elfinder',
+  );
+
   // Exported permission: 'duplicate files'.
   $permissions['duplicate files'] = array(
     'name' => 'duplicate files',
@@ -812,6 +873,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'edit file description'.
+  $permissions['edit file description'] = array(
+    'name' => 'edit file description',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
   );
 
   // Exported permission: 'edit files'.
@@ -965,6 +1035,13 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'workbench_moderation',
   );
 
+  // Exported permission: 'mount network volumes'.
+  $permissions['mount network volumes'] = array(
+    'name' => 'mount network volumes',
+    'roles' => array(),
+    'module' => 'elfinder',
+  );
+
   // Exported permission: 'notify of path changes'.
   $permissions['notify of path changes'] = array(
     'name' => 'notify of path changes',
@@ -979,6 +1056,15 @@ function emg_repository_features_user_default_permissions() {
     'name' => 'paste from clipboard',
     'roles' => array(
       'Sub Admin' => 'Sub Admin',
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'preview files'.
+  $permissions['preview files'] = array(
+    'name' => 'preview files',
+    'roles' => array(
       'administrator' => 'administrator',
     ),
     'module' => 'elfinder',
@@ -1122,6 +1208,42 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'workbench_moderation',
   );
 
+  // Exported permission: 'view file description'.
+  $permissions['view file description'] = array(
+    'name' => 'view file description',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'view file downloads'.
+  $permissions['view file downloads'] = array(
+    'name' => 'view file downloads',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'view file info'.
+  $permissions['view file info'] = array(
+    'name' => 'view file info',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'view file owner'.
+  $permissions['view file owner'] = array(
+    'name' => 'view file owner',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
   // Exported permission: 'view moderation history'.
   $permissions['view moderation history'] = array(
     'name' => 'view moderation history',
@@ -1169,6 +1291,24 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'system',
+  );
+
+  // Exported permission: 'write private files'.
+  $permissions['write private files'] = array(
+    'name' => 'write private files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
+  );
+
+  // Exported permission: 'write public files'.
+  $permissions['write public files'] = array(
+    'name' => 'write public files',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'elfinder',
   );
 
   return $permissions;

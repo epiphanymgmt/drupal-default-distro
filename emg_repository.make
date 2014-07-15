@@ -7,7 +7,8 @@ projects[drupal][version] = "7.28"
 
 ;	Libraries
 libraries[elfinder][download][type] = "get"
-libraries[elfinder][download][url] = "http://downloads.sourceforge.net/project/elfinder/elfinder-1.2.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Felfinder%2Ffiles%2F&ts=1399582191&use_mirror=iweb"
+;libraries[elfinder][download][url] = "http://downloads.sourceforge.net/project/elfinder/elfinder-1.2.zip?r=http%3A%2F%2Fsourceforge.net%2Fprojects%2Felfinder%2Ffiles%2F&ts=1399582191&use_mirror=iweb"
+libraries[elfinder][download][url] = "https://github.com/Studio-42/elFinder/archive/2.x.zip"
 libraries[elfinder][directory_name] = "elfinder"
 libraries[elfinder][destination] = "libraries"
 libraries[elfinder][type] = "library"
@@ -27,7 +28,7 @@ projects[ckeditor][version] = "1.14"
 
 projects[elements][version] = "1.4"
 
-projects[elfinder][version] = "0.8"
+projects[elfinder][version] = "2.x-dev"
 
 projects[entity][version] = "1.5"
 

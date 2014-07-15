@@ -154,21 +154,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1403708114;
+  $strongarm->value = 1405453737;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n7dh2s';
+  $strongarm->value = 'n8rrn6';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1403708147;
+  $strongarm->value = 1405453740;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -219,6 +219,53 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'elfinder_settings_filesystem_fileurl';
   $strongarm->value = 'false';
   $export['elfinder_settings_filesystem_fileurl'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'elfinder_settings_misc_archivers';
+  $strongarm->value = array(
+    'create' => array(
+      'application/x-tar' => array(
+        'cmd' => 'tar',
+        'argc' => '-cf',
+        'ext' => 'tar',
+      ),
+      'application/x-gzip' => array(
+        'cmd' => 'tar',
+        'argc' => '-czf',
+        'ext' => 'tgz',
+      ),
+      'application/x-bzip2' => array(
+        'cmd' => 'tar',
+        'argc' => '-cjf',
+        'ext' => 'tbz',
+      ),
+    ),
+    'extract' => array(
+      'application/x-tar' => array(
+        'cmd' => 'tar',
+        'argc' => '-xf',
+        'ext' => 'tar',
+      ),
+      'application/x-gzip' => array(
+        'cmd' => 'tar',
+        'argc' => '-xzf',
+        'ext' => 'tgz',
+      ),
+      'application/x-bzip2' => array(
+        'cmd' => 'tar',
+        'argc' => '-xjf',
+        'ext' => 'tbz',
+      ),
+      'application/zip' => array(
+        'cmd' => 'unzip',
+        'argc' => '',
+        'ext' => 'zip',
+      ),
+    ),
+  );
+  $export['elfinder_settings_misc_archivers'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -329,6 +376,13 @@ function emg_repository_features_strongarm() {
     'default-system' => 'SmtpMailSystem',
   );
   $export['mail_system'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'maintenance_mode';
+  $strongarm->value = FALSE;
+  $export['maintenance_mode'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -663,14 +717,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1403708173;
+  $strongarm->value = 1405453753;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1403708114;
+  $strongarm->value = 1405453737;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();

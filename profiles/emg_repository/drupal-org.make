@@ -82,7 +82,7 @@ projects[Viewport][subdir] = "contrib"
 projects[ckeditor][version] = "1.14"
 projects[ckeditor][subdir] = "contrib"
 
-projects[elfinder][version] = "0.8"
+projects[elfinder][version] = "2.x-dev"
 projects[elfinder][subdir] = "contrib"
 
 projects[jquery_update][version] = "2.4"
