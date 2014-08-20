@@ -7,7 +7,7 @@ api = "2"
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
 
-projects[admin_views][version] = "1.2"
+projects[admin_views][version] = "1.3"
 projects[admin_views][subdir] = "contrib"
 
 projects[menu_admin_per_menu][version] = "1.0"
@@ -19,13 +19,13 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.0"
+projects[profiler_builder][version] = "1.1"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[emg_repository_features][version] = "1.0"
 projects[emg_repository_features][subdir] = "contrib"
 
-projects[features][version] = "2.0"
+projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 
 projects[modernizr][version] = "3.2"
@@ -52,6 +52,9 @@ projects[entity][subdir] = "contrib"
 projects[entity_dependency][version] = "1.0-alpha1"
 projects[entity_dependency][subdir] = "contrib"
 
+projects[libraries][version] = "2.2"
+projects[libraries][subdir] = "contrib"
+
 projects[node_clone][version] = "1.0-rc2"
 projects[node_clone][subdir] = "contrib"
 
@@ -61,7 +64,7 @@ projects[normalize][subdir] = "contrib"
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
 
-projects[r4032login][version] = "1.7"
+projects[r4032login][version] = "1.8"
 projects[r4032login][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc1"
@@ -79,7 +82,7 @@ projects[uuid][subdir] = "contrib"
 projects[Viewport][version] = "1.1"
 projects[Viewport][subdir] = "contrib"
 
-projects[ckeditor][version] = "1.14"
+projects[ckeditor][version] = "1.15"
 projects[ckeditor][subdir] = "contrib"
 
 projects[elfinder][version] = "2.x-dev"
@@ -108,4 +111,13 @@ projects[workbench_moderation][subdir] = "contrib"
 
 projects[xmlsitemap][version] = "2.0"
 projects[xmlsitemap][subdir] = "contrib"
+
+; +++++ Libraries +++++
+
+; CKEditor
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
+libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
 

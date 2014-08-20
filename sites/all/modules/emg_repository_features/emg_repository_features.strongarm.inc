@@ -154,21 +154,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1405453737;
+  $strongarm->value = 1408538549;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'n8rrn6';
+  $strongarm->value = 'nalvlv';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1405453740;
+  $strongarm->value = 1408538559;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -288,8 +288,8 @@ function emg_repository_features_strongarm() {
       'menu_links' => '4c3eba0df9af8142cd5c5661fc250530',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => '073356a92ad46c29265501fcc6f5f7b2',
-      'dependencies' => '312cd55d09d6d28ccdb06bd910eb4b5c',
+      'user_permission' => '909b574d42a5517cb3c46ab1268348a0',
+      'dependencies' => 'a91909f2c916cfad9c4a8f6cfdee3c5c',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
       'variable' => '0dda7bfd61067ee51479987a70b6d739',
@@ -717,14 +717,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1405453753;
+  $strongarm->value = 1408538569;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1405453737;
+  $strongarm->value = 1408377790;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -803,7 +803,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'viewport_maximum_scale';
-  $strongarm->value = '';
+  $strongarm->value = '1.0';
   $export['viewport_maximum_scale'] = $strongarm;
 
   $strongarm = new stdClass();

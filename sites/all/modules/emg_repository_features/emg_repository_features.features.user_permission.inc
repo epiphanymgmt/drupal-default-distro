@@ -1070,6 +1070,13 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'elfinder',
   );
 
+  // Exported permission: 'rename features'.
+  $permissions['rename features'] = array(
+    'name' => 'rename features',
+    'roles' => array(),
+    'module' => 'features',
+  );
+
   // Exported permission: 'rename files and directories'.
   $permissions['rename files and directories'] = array(
     'name' => 'rename files and directories',

@@ -1,6 +1,7 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
-description = "EMG Base Drupal Environment"
+description = ""
+exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -44,6 +45,8 @@ dependencies[] = taxonomy
 dependencies[] = text
 dependencies[] = update
 dependencies[] = user
+; Development
+dependencies[] = profiler_builder
 ; Frontend
 dependencies[] = modernizr
 ; Input filters
@@ -60,6 +63,7 @@ dependencies[] = elements
 dependencies[] = emg_drupal_fixes
 dependencies[] = entity
 dependencies[] = entity_dependency
+dependencies[] = libraries
 dependencies[] = normalize
 dependencies[] = pathauto
 dependencies[] = r4032login
@@ -90,4 +94,100 @@ dependencies[] = xmlsitemap_node
 ; Features
 dependencies[] = features
 dependencies[] = emg_repository_features
+
+; ----------
+; Variables
+; ----------
+variables[additional_settings__active_tab_article] = 'edit-xmlsitemap'
+variables[additional_settings__active_tab_page] = 'edit-workflow'
+variables[admin_theme] = 'seven'
+variables[comment_article] = '0'
+variables[comment_default_mode_article] = 1
+variables[comment_default_mode_page] = 1
+variables[comment_default_per_page_article] = '50'
+variables[comment_default_per_page_page] = '50'
+variables[comment_form_location_article] = 1
+variables[comment_form_location_page] = 1
+variables[comment_preview_article] = '1'
+variables[comment_preview_page] = '1'
+variables[comment_subject_field_article] = 1
+variables[comment_subject_field_page] = 1
+variables[date_default_timezone] = 'America/Detroit'
+variables[date_first_day] = '0'
+variables[date_format_html5_tools_iso8601] = 'c'
+variables[default_nodes_main] = '10'
+variables[elfinder_settings_filesystem_fileurl] = 'false'
+variables[elfinder_settings_misc_archivers][create][application/x-tar][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][create][application/x-tar][argc] = '-cf'
+variables[elfinder_settings_misc_archivers][create][application/x-tar][ext] = 'tar'
+variables[elfinder_settings_misc_archivers][create][application/x-gzip][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][create][application/x-gzip][argc] = '-czf'
+variables[elfinder_settings_misc_archivers][create][application/x-gzip][ext] = 'tgz'
+variables[elfinder_settings_misc_archivers][create][application/x-bzip2][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][create][application/x-bzip2][argc] = '-cjf'
+variables[elfinder_settings_misc_archivers][create][application/x-bzip2][ext] = 'tbz'
+variables[elfinder_settings_misc_archivers][extract][application/x-tar][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][extract][application/x-tar][argc] = '-xf'
+variables[elfinder_settings_misc_archivers][extract][application/x-tar][ext] = 'tar'
+variables[elfinder_settings_misc_archivers][extract][application/x-gzip][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][extract][application/x-gzip][argc] = '-xzf'
+variables[elfinder_settings_misc_archivers][extract][application/x-gzip][ext] = 'tgz'
+variables[elfinder_settings_misc_archivers][extract][application/x-bzip2][cmd] = 'tar'
+variables[elfinder_settings_misc_archivers][extract][application/x-bzip2][argc] = '-xjf'
+variables[elfinder_settings_misc_archivers][extract][application/x-bzip2][ext] = 'tbz'
+variables[elfinder_settings_misc_archivers][extract][application/zip][cmd] = 'unzip'
+variables[elfinder_settings_misc_archivers][extract][application/zip][argc] = ''
+variables[elfinder_settings_misc_archivers][extract][application/zip][ext] = 'zip'
+variables[file_private_path] = 'sites/default/files/private'
+variables[filter_fallback_format] = 'plain_text'
+variables[mail_system][default-system] = 'SmtpMailSystem'
+variables[menu_options_article][0] = 'main-menu'
+variables[menu_options_page][0] = 'main-menu'
+variables[menu_parent_article] = 'main-menu:0'
+variables[menu_parent_page] = 'main-menu:0'
+variables[node_admin_theme] = '1'
+variables[node_options_article][0] = 'status'
+variables[node_options_page][0] = 'moderation'
+variables[node_options_page][1] = 'revision'
+variables[node_preview_article] = '1'
+variables[node_preview_page] = '1'
+variables[node_submitted_article] = 1
+variables[pathauto_blog_pattern] = 'blogs/[user:name]'
+variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_node_pattern] = 'content/[node:title]'
+variables[pathauto_punctuation_hyphen] = 1
+variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
+variables[pathauto_user_pattern] = 'users/[user:name]'
+variables[path_alias_whitelist][node] = true
+variables[path_alias_whitelist][user] = true
+variables[site_403] = 'r4032login'
+variables[site_404] = 'node/1'
+variables[site_frontpage] = 'node'
+variables[smtp_allowhtml] = 1
+variables[smtp_debugging] = 1
+variables[smtp_host] = 'smtp.gmail.com'
+variables[smtp_on] = '0'
+variables[smtp_password] = 'epiphany'
+variables[smtp_port] = '465'
+variables[smtp_protocol] = 'ssl'
+variables[smtp_username] = 'solutions@epiphanymgmt.com'
+variables[theme_default] = 'bartik'
+variables[update_last_email_notification] = 1408377790
+variables[user_default_timezone] = '0'
+variables[user_pictures] = '1'
+variables[user_picture_dimensions] = '1024x1024'
+variables[user_picture_file_size] = '800'
+variables[user_picture_style] = 'thumbnail'
+variables[user_register] = 2
+variables[viewport_initial_scale] = '1.0'
+variables[viewport_maximum_scale] = '1.0'
+variables[viewport_minimum_scale] = '1.0'
+variables[viewport_selected_pages] = '*'
+variables[viewport_width] = 'device-width'
+variables[workbench_moderation_default_state_page] = 'needs_review'
+variables[xmlsitemap_generated_last] = 1400778246
+variables[xmlsitemap_settings_node_article][status] = '1'
+variables[xmlsitemap_settings_node_article][priority] = '0.5'
+variables[xmlsitemap_settings_node_page][status] = '1'
+variables[xmlsitemap_settings_node_page][priority] = '0.5'
 
