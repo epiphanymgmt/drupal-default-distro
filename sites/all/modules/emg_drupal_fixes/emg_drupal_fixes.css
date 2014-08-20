@@ -6,3 +6,5 @@ th{
 	padding: inherit;
 	text-align: inherit;
 }
+
+.mean-container a.meanmenu-reveal{ text-indent: 0 !important; }
