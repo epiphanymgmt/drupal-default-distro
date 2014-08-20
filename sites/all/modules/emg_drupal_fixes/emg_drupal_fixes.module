@@ -2,7 +2,7 @@
 
 function emg_drupal_fixes_init() {
 //	If the jQuery version is higher than 1.9, this migration plugin should prevent errors from older code.
-	drupal_add_js('http://code.jquery.com/jquery-migrate-1.2.1.min.js', array('type'=>'external', 'weight'=>-100));
+	drupal_add_js('//code.jquery.com/jquery-migrate-1.2.1.min.js', array('type'=>'external', 'weight'=>-100));
 //	This forces jquery ui to be enabled with anonymous logins
   drupal_add_library('system', 'ui');
 }
