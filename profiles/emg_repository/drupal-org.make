@@ -19,7 +19,10 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.1"
+projects[devel][version] = "1.5"
+projects[devel][subdir] = "contrib"
+
+projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[emg_repository_features][version] = "1.0"
@@ -75,6 +78,9 @@ projects[strongarm][subdir] = "contrib"
 
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
+
+projects[google_analytics][version] = "2.0"
+projects[google_analytics][subdir] = "contrib"
 
 projects[uuid][version] = "1.0-alpha5"
 projects[uuid][subdir] = "contrib"

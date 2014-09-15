@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.28"
+projects[drupal][version] = "7.31"
 
 
 ;	Libraries
@@ -18,13 +18,15 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[admin_menu][version] = "3.0-rc4"
 
-projects[admin_views][version] = "1.2"
+projects[admin_views][version] = "1.3"
 
 projects[ctools][version] = "1.4"
 
+projects[devel][version] = "1.5"
+
 projects[cck][version] = "3.0-alpha3"
 
-projects[ckeditor][version] = "1.14"
+projects[ckeditor][version] = "1.15"
 
 projects[elements][version] = "1.4"
 
@@ -36,7 +38,7 @@ projects[entity_dependency][version] = "1.0-alpha1"
 
 projects[libraries][version] = "2.2"
 
-projects[features][version] = "2.0"
+projects[features][version] = "2.2"
 
 projects[smtp][version] = "1.0"
 
@@ -56,15 +58,17 @@ projects[normalize][version] = "1.6"
 
 projects[pathauto][version] = "1.2"
 
-projects[r4032login][version] = "1.7"
+projects[r4032login][version] = "1.8"
 
-projects[profiler_builder][version] = "1.0"
+projects[profiler_builder][version] = "1.2"
 
 projects[redirect][version] = "1.0-rc1"
 
 projects[strongarm][version] = "2.0"
 
 projects[token][version] = "1.5"
+
+projects[google_analytics][version] = "2.0"
 
 projects[uuid][version] = "1.0-alpha5"
 
