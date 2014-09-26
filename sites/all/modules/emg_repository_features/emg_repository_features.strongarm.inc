@@ -154,21 +154,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1410790588;
+  $strongarm->value = 1411756153;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nby6jx';
+  $strongarm->value = 'ncj0h4';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1410790601;
+  $strongarm->value = 1411738449;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -216,79 +216,9 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_allowed_extensions';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_allowed_extensions'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_dirperm';
-  $strongarm->value = '0777';
-  $export['elfinder_settings_filesystem_dirperm'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_fileperm';
-  $strongarm->value = '0666';
-  $export['elfinder_settings_filesystem_fileperm'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'elfinder_settings_filesystem_fileurl';
-  $strongarm->value = 'true';
+  $strongarm->value = 'false';
   $export['elfinder_settings_filesystem_fileurl'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_handleprivate';
-  $strongarm->value = 'true';
-  $export['elfinder_settings_filesystem_handleprivate'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_maxfilesize';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_maxfilesize'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_mimedetect';
-  $strongarm->value = 'auto';
-  $export['elfinder_settings_filesystem_mimedetect'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_private_root_label';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_private_root_label'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_public_root_label';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_public_root_label'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_unmanaged_root_label';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_unmanaged_root_label'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_filesystem_url_custom';
-  $strongarm->value = '';
-  $export['elfinder_settings_filesystem_url_custom'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -340,62 +270,6 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_misc_manager_height';
-  $strongarm->value = '';
-  $export['elfinder_settings_misc_manager_height'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_misc_manager_width';
-  $strongarm->value = '';
-  $export['elfinder_settings_misc_manager_width'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_misc_rememberlastdir';
-  $strongarm->value = 'true';
-  $export['elfinder_settings_misc_rememberlastdir'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_misc_usesystemjquery';
-  $strongarm->value = 'true';
-  $export['elfinder_settings_misc_usesystemjquery'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_thumbnail_dirname';
-  $strongarm->value = 'tmb';
-  $export['elfinder_settings_thumbnail_dirname'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_thumbnail_imglib';
-  $strongarm->value = 'auto';
-  $export['elfinder_settings_thumbnail_imglib'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_thumbnail_size';
-  $strongarm->value = '48';
-  $export['elfinder_settings_thumbnail_size'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'elfinder_settings_thumbnail_tmbcrop';
-  $strongarm->value = 'true';
-  $export['elfinder_settings_thumbnail_tmbcrop'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'empty_timezone_message';
   $strongarm->value = 0;
   $export['empty_timezone_message'] = $strongarm;
@@ -409,17 +283,17 @@ function emg_repository_features_strongarm() {
       'ckeditor_profile' => '48ba2a280ce2ee3bc391924c5d973db6',
       'field_base' => '56aaf3d093a21a998d3cd4e87ddf16ae',
       'field_instance' => '8b02508f25f2175f29104046886572da',
-      'filter' => '9a49d872d3589356fc2b6b7b9fe9b840',
-      'menu_custom' => '197d07d37eacad2beba6ceb6d6080cfd',
+      'filter' => '8010cc08798f1b3bbc9ce08109f1ebe0',
+      'menu_custom' => '8ca9f6f82f4b161f169a1f32bbf43f41',
       'menu_links' => '4c3eba0df9af8142cd5c5661fc250530',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => '57fd822858d3bc50b7cb26d3cb3ba6a5',
-      'dependencies' => 'f8f2797ac58f52fbcecdc2701986b233',
+      'user_permission' => '909b574d42a5517cb3c46ab1268348a0',
+      'dependencies' => 'f73b377087ddda738e40dd3b82cfd525',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
       'variable' => '0dda7bfd61067ee51479987a70b6d739',
-      'workbench_email' => 'eda6e8ec935b4e538d8884bc794049c2',
+      'workbench_email' => FALSE,
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -544,21 +418,20 @@ function emg_repository_features_strongarm() {
     19 => 30,
     20 => 29,
     21 => 28,
-    22 => 27,
-    23 => 24,
-    24 => 22,
-    25 => 21,
-    26 => 15,
-    27 => 14,
-    28 => 13,
-    29 => 11,
-    30 => 10,
-    31 => 7,
-    32 => 6,
-    33 => 5,
-    34 => 3,
-    35 => 2,
-    36 => 1,
+    22 => 24,
+    23 => 22,
+    24 => 21,
+    25 => 15,
+    26 => 14,
+    27 => 13,
+    28 => 11,
+    29 => 10,
+    30 => 7,
+    31 => 6,
+    32 => 5,
+    33 => 3,
+    34 => 2,
+    35 => 1,
   );
   $export['menu_masks'] = $strongarm;
 
@@ -622,7 +495,8 @@ function emg_repository_features_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_page';
   $strongarm->value = array(
-    0 => 'status',
+    0 => 'moderation',
+    1 => 'revision',
   );
   $export['node_options_page'] = $strongarm;
 
@@ -843,14 +717,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1410790629;
+  $strongarm->value = 1411756171;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1410790588;
+  $strongarm->value = 1411738404;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();

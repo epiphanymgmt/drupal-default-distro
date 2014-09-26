@@ -19,10 +19,7 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[devel][version] = "1.5"
-projects[devel][subdir] = "contrib"
-
-projects[profiler_builder][version] = "1.2"
+projects[profiler_builder][version] = "1.1"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[emg_repository_features][version] = "1.0"
@@ -102,6 +99,9 @@ projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"
 projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_content_cache][version] = "3.0-alpha3"
+projects[views_content_cache][subdir] = "contrib"
 
 projects[webform][version] = "3.20"
 projects[webform][subdir] = "contrib"

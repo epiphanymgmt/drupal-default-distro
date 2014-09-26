@@ -84,6 +84,8 @@ projects[jquery_update][version] = "2.4"
 
 projects[views][version] = "3.8"
 
+projects[views_content_cache][version] = "3.0-alpha3"
+
 projects[webform][version] = "3.20"
 
 projects[workbench][version] = "1.2"
