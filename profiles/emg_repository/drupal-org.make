@@ -19,7 +19,7 @@ projects[cck][subdir] = "contrib"
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 
-projects[profiler_builder][version] = "1.1"
+projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
 projects[emg_repository_features][version] = "1.0"
@@ -28,7 +28,7 @@ projects[emg_repository_features][subdir] = "contrib"
 projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 
-projects[modernizr][version] = "3.2"
+projects[modernizr][version] = "3.3"
 projects[modernizr][subdir] = "contrib"
 
 projects[image_resize_filter][version] = "1.14"
@@ -49,7 +49,7 @@ projects[elements][subdir] = "contrib"
 projects[entity][version] = "1.5"
 projects[entity][subdir] = "contrib"
 
-projects[entity_dependency][version] = "1.0-alpha1"
+projects[entity_dependency][version] = "1.0-alpha2"
 projects[entity_dependency][subdir] = "contrib"
 
 projects[libraries][version] = "2.2"
@@ -82,7 +82,7 @@ projects[rules][subdir] = "contrib"
 projects[google_analytics][version] = "2.0"
 projects[google_analytics][subdir] = "contrib"
 
-projects[uuid][version] = "1.0-alpha5"
+projects[uuid][version] = "1.0-alpha6"
 projects[uuid][subdir] = "contrib"
 
 projects[Viewport][version] = "1.1"
@@ -112,7 +112,7 @@ projects[webform][subdir] = "contrib"
 projects[workbench][version] = "1.2"
 projects[workbench][subdir] = "contrib"
 
-projects[workbench_email][version] = "3.2"
+projects[workbench_email][version] = "3.3"
 projects[workbench_email][subdir] = "contrib"
 
 projects[workbench_moderation][version] = "1.3"
