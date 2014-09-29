@@ -68,6 +68,8 @@ projects[strongarm][version] = "2.0"
 
 projects[token][version] = "1.5"
 
+projects[rules][version] = "2.7"
+
 projects[google_analytics][version] = "2.0"
 
 projects[uuid][version] = "1.0-alpha5"

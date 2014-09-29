@@ -154,21 +154,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1411756153;
+  $strongarm->value = 1411992971;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'ncj0h4';
+  $strongarm->value = 'ncnyrg';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1411738449;
+  $strongarm->value = 1411919211;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -288,12 +288,12 @@ function emg_repository_features_strongarm() {
       'menu_links' => '4c3eba0df9af8142cd5c5661fc250530',
       'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => '909b574d42a5517cb3c46ab1268348a0',
-      'dependencies' => 'f73b377087ddda738e40dd3b82cfd525',
+      'user_permission' => '6e5a4c09e848af2549c654e669011ed8',
+      'dependencies' => 'fb4898f2d8719091cb60be61eb0e9efa',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
       'variable' => '0dda7bfd61067ee51479987a70b6d739',
-      'workbench_email' => FALSE,
+      'workbench_email' => 'eda6e8ec935b4e538d8884bc794049c2',
     ),
   );
   $export['features_codecache'] = $strongarm;
@@ -396,42 +396,47 @@ function emg_repository_features_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_masks';
   $strongarm->value = array(
-    0 => 501,
-    1 => 250,
-    2 => 245,
-    3 => 125,
-    4 => 124,
-    5 => 123,
-    6 => 122,
-    7 => 121,
-    8 => 117,
-    9 => 63,
-    10 => 62,
-    11 => 61,
-    12 => 60,
-    13 => 59,
-    14 => 58,
-    15 => 45,
-    16 => 44,
-    17 => 42,
-    18 => 31,
-    19 => 30,
-    20 => 29,
-    21 => 28,
-    22 => 24,
-    23 => 22,
-    24 => 21,
-    25 => 15,
-    26 => 14,
-    27 => 13,
-    28 => 11,
-    29 => 10,
-    30 => 7,
-    31 => 6,
-    32 => 5,
-    33 => 3,
-    34 => 2,
-    35 => 1,
+    0 => 507,
+    1 => 506,
+    2 => 501,
+    3 => 253,
+    4 => 252,
+    5 => 250,
+    6 => 245,
+    7 => 126,
+    8 => 125,
+    9 => 124,
+    10 => 123,
+    11 => 122,
+    12 => 121,
+    13 => 117,
+    14 => 63,
+    15 => 62,
+    16 => 61,
+    17 => 60,
+    18 => 59,
+    19 => 58,
+    20 => 45,
+    21 => 44,
+    22 => 42,
+    23 => 31,
+    24 => 30,
+    25 => 29,
+    26 => 28,
+    27 => 24,
+    28 => 22,
+    29 => 21,
+    30 => 15,
+    31 => 14,
+    32 => 13,
+    33 => 11,
+    34 => 10,
+    35 => 7,
+    36 => 6,
+    37 => 5,
+    38 => 3,
+    39 => 2,
+    40 => 1,
   );
   $export['menu_masks'] = $strongarm;
 
@@ -583,6 +588,15 @@ function emg_repository_features_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'rules_event_whitelist';
+  $strongarm->value = array(
+    'node_update' => 0,
+  );
+  $export['rules_event_whitelist'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'site_403';
   $strongarm->value = 'r4032login';
   $export['site_403'] = $strongarm;
@@ -717,14 +731,14 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1411756171;
+  $strongarm->value = 1411992989;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1411738404;
+  $strongarm->value = 1411919205;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();

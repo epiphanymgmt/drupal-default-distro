@@ -63,6 +63,7 @@ dependencies[] = elements
 dependencies[] = emg_drupal_fixes
 dependencies[] = entity
 dependencies[] = entity_dependency
+dependencies[] = entity_token
 dependencies[] = libraries
 dependencies[] = normalize
 dependencies[] = pathauto
@@ -70,6 +71,9 @@ dependencies[] = r4032login
 dependencies[] = redirect
 dependencies[] = strongarm
 dependencies[] = token
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
 ; Statistics
 dependencies[] = googleanalytics
 ; UUID
@@ -163,6 +167,7 @@ variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
 variables[pathauto_user_pattern] = 'users/[user:name]'
 variables[path_alias_whitelist][node] = true
 variables[path_alias_whitelist][user] = true
+variables[rules_event_whitelist][node_update] = 0
 variables[site_403] = 'r4032login'
 variables[site_404] = 'node/1'
 variables[site_frontpage] = 'node'
@@ -175,7 +180,7 @@ variables[smtp_port] = '465'
 variables[smtp_protocol] = 'ssl'
 variables[smtp_username] = 'solutions@epiphanymgmt.com'
 variables[theme_default] = 'bartik'
-variables[update_last_email_notification] = 1411738404
+variables[update_last_email_notification] = 1411919205
 variables[user_default_timezone] = '0'
 variables[user_pictures] = '1'
 variables[user_picture_dimensions] = '1024x1024'

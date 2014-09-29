@@ -76,6 +76,9 @@ projects[strongarm][subdir] = "contrib"
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 
+projects[rules][version] = "2.7"
+projects[rules][subdir] = "contrib"
+
 projects[google_analytics][version] = "2.0"
 projects[google_analytics][subdir] = "contrib"
 

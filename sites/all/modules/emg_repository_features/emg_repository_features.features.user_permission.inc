@@ -145,6 +145,15 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'elfinder',
   );
 
+  // Exported permission: 'access rules debug'.
+  $permissions['access rules debug'] = array(
+    'name' => 'access rules debug',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'rules',
+  );
+
   // Exported permission: 'access site in maintenance mode'.
   $permissions['access site in maintenance mode'] = array(
     'name' => 'access site in maintenance mode',
@@ -396,6 +405,15 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'redirect',
   );
 
+  // Exported permission: 'administer rules'.
+  $permissions['administer rules'] = array(
+    'name' => 'administer rules',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'rules',
+  );
+
   // Exported permission: 'administer search'.
   $permissions['administer search'] = array(
     'name' => 'administer search',
@@ -567,6 +585,15 @@ function emg_repository_features_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'bypass rules access'.
+  $permissions['bypass rules access'] = array(
+    'name' => 'bypass rules access',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'rules',
   );
 
   // Exported permission: 'bypass workbench moderation'.
