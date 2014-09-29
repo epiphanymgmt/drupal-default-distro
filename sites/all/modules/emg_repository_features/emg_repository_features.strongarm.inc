@@ -154,7 +154,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1412003817;
+  $strongarm->value = 1412018403;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -168,7 +168,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1411919211;
+  $strongarm->value = 1412018412;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -293,7 +293,7 @@ function emg_repository_features_strongarm() {
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
       'variable' => '0dda7bfd61067ee51479987a70b6d739',
-      'workbench_email' => 'eda6e8ec935b4e538d8884bc794049c2',
+      'workbench_email' => 'b91b2da88bc6f1b62e3e8ebcae3ae63a',
       'rules_config' => '50c56c789ae896be5c0c6c0d9be91c9f',
     ),
   );
@@ -732,7 +732,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1412003826;
+  $strongarm->value = 1412018420;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
