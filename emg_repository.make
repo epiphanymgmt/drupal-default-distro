@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.31"
+projects[drupal][version] = "7.32"
 
 
 ;	Libraries
@@ -26,7 +26,7 @@ projects[devel][version] = "1.5"
 
 projects[cck][version] = "3.0-alpha3"
 
-projects[ckeditor][version] = "1.15"
+projects[ckeditor][version] = "1.16"
 
 projects[elements][version] = "1.4"
 
@@ -88,7 +88,7 @@ projects[views][version] = "3.8"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.21"
 
 projects[workbench][version] = "1.2"
 
