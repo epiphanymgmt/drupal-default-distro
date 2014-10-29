@@ -3,8 +3,20 @@
 function emg_drupal_fixes_init() {
 //	If the jQuery version is higher than 1.9, this migration plugin should prevent errors from older code.
 	drupal_add_js('//code.jquery.com/jquery-migrate-1.2.1.min.js', array('type'=>'external', 'weight'=>-100));
+	
 //	This forces jquery ui to be enabled with anonymous logins
-  drupal_add_library('system', 'ui');
+	drupal_add_library('system', 'ui');
+  
+//	Add HTML5 Tag Support to old IEs
+	$html5shiv = array(
+		'#tag' => 'script',
+		'#attributes' => array( // Set up an array of attributes inside the tag
+			'src' => drupal_get_path('module', 'emg_drupal_fixes') . '/js/html5shiv.js', 
+		),
+		'#prefix' => '<!--[if lte IE 8]>',
+		'#suffix' => '</script><![endif]-->'
+	);
+	drupal_add_html_head($html5shiv, 'html5shiv');
 }
 
 
