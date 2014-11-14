@@ -19,6 +19,25 @@ function emg_drupal_fixes_init() {
 	drupal_add_html_head($html5shiv, 'html5shiv');
 }
 
+// Redirect other domians to a primary domain
+function emg_drupal_fixes_boot(){
+	$domain = trim(variable_get('emg_drupal_fixes_main_domain_redirect', ''));
+	if(empty($domain))
+		return;
+				
+	$domain = str_replace(array('http://', 'https://'), '', $domain);
+	
+	if($_SERVER['SERVER_NAME'] != $domain){
+		$exceptions = trim(variable_get('emg_drupal_fixes_main_domain_redirect_exceptions', ''));
+		if(!empty($exceptions)){
+			$exceptions = explode(' ', $exceptions);
+			if(in_array($_SERVER['SERVER_NAME'], $exceptions))
+				return;
+		}
+		header('location: //' . $domain . $_SERVER['REQUEST_URI']);
+		die;	
+	}
+}
 
 function emg_drupal_fixes_help($path, $arg) {
 	switch ($path) {
@@ -42,12 +61,27 @@ function emg_drupal_fixes_menu(){
 }
 
 function emg_drupal_fixes_settings($form){
+//	Be able to redirect all domains and subdomains to one domain
+	$form['emg_drupal_fixes_main_domain_redirect'] = array(
+	  '#type' => 'textfield',
+	  '#title' => t('Primary domain redirect?'),
+	  '#default_value' => variable_get('emg_drupal_fixes_main_domain_redirect', ''),
+	  '#description' => t('By entering a primary domain (ex. www.example.com), all other domains will change to this domain. (ex example.com/content will change to www.example.com/content')
+	);	
+//	Exceptions to the rule, domains that will not be redirected.
+	$form['emg_drupal_fixes_main_domain_redirect_exceptions'] = array(
+	  '#type' => 'textfield',
+	  '#title' => t('Primary domain redirect exceptions'),
+	  '#default_value' => variable_get('emg_drupal_fixes_main_domain_redirect_exceptions', ''),
+	  '#description' => t('A list of domains that will not be automatically redirected to the primary domain.')
+	);
+	
+//	Be able to change the view mode of nodes promoted to the homepage.
 	$entity_info = entity_get_info('node');
 	$options = array();
 	foreach($entity_info['view modes'] as $key=>$arr)
 		$options[$key] = t($arr['label']);
 		
-//	Be able to change the view mode of nodes promoted to the homepage.
 	$form['emg_drupal_fixes_frontpage_view_mode'] = array(
 	  '#type' => 'radios',
 	  '#title' => t('What View Mode Should be used on the Front Page?'),

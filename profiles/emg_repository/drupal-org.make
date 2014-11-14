@@ -22,14 +22,14 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[emg_repository_features][version] = "1.0"
-projects[emg_repository_features][subdir] = "contrib"
-
 projects[features][version] = "2.2"
 projects[features][subdir] = "contrib"
 
 projects[modernizr][version] = "3.3"
 projects[modernizr][subdir] = "contrib"
+
+projects[imagecache_token][version] = "1.x-dev"
+projects[imagecache_token][subdir] = "contrib"
 
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
@@ -58,7 +58,7 @@ projects[libraries][subdir] = "contrib"
 projects[node_clone][version] = "1.0-rc2"
 projects[node_clone][subdir] = "contrib"
 
-projects[normalize][version] = "1.6"
+projects[normalize][version] = "1.8"
 projects[normalize][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
@@ -76,8 +76,14 @@ projects[strongarm][subdir] = "contrib"
 projects[token][version] = "1.5"
 projects[token][subdir] = "contrib"
 
+projects[transliteration][version] = "3.2"
+projects[transliteration][subdir] = "contrib"
+
 projects[rules][version] = "2.7"
 projects[rules][subdir] = "contrib"
+
+projects[metatag][version] = "1.4"
+projects[metatag][subdir] = "contrib"
 
 projects[google_analytics][version] = "2.0"
 projects[google_analytics][subdir] = "contrib"
@@ -88,7 +94,7 @@ projects[uuid][subdir] = "contrib"
 projects[Viewport][version] = "1.1"
 projects[Viewport][subdir] = "contrib"
 
-projects[ckeditor][version] = "1.15"
+projects[ckeditor][version] = "1.16"
 projects[ckeditor][subdir] = "contrib"
 
 projects[elfinder][version] = "2.x-dev"
@@ -106,7 +112,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "3.20"
+projects[webform][version] = "3.21"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"

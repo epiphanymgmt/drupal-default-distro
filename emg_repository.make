@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.32"
+projects[drupal][version] = "7.33"
 
 
 ;	Libraries
@@ -50,11 +50,15 @@ projects[modernizr][version] = "3.2"
 
 projects[image_resize_filter][version] = "1.14"
 
+projects[imagecache_token][version] = "1.x-dev"
+
+projects[metatag][version] = "1.4"
+
 projects[node_export][version] = "3.0"
 
 projects[node_clone][version] = "1.0-rc2"
 
-projects[normalize][version] = "1.6"
+projects[normalize][version] = "1.8"
 
 projects[pathauto][version] = "1.2"
 
@@ -67,6 +71,8 @@ projects[redirect][version] = "1.0-rc1"
 projects[strongarm][version] = "2.0"
 
 projects[token][version] = "1.5"
+
+projects[transliteration][version] = "3.2"
 
 projects[rules][version] = "2.7"
 
@@ -92,7 +98,7 @@ projects[webform][version] = "3.21"
 
 projects[workbench][version] = "1.2"
 
-projects[workbench_email][version] = "3.2"
+projects[workbench_email][version] = "3.3"
 
 projects[workbench_moderation][version] = "1.3"
 
