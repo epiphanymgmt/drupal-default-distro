@@ -1,0 +1,5 @@
+name = "EMG Ajax"
+description = "Allows node content to be access via ajax"
+package = Other
+core = 7.x
+

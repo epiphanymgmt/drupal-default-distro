@@ -27,7 +27,7 @@ function emg_drupal_fixes_boot(){
 				
 	$domain = str_replace(array('http://', 'https://'), '', $domain);
 	
-	if($_SERVER['SERVER_NAME'] != $domain){
+	if(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] != $domain){
 		$exceptions = trim(variable_get('emg_drupal_fixes_main_domain_redirect_exceptions', ''));
 		if(!empty($exceptions)){
 			$exceptions = explode(' ', $exceptions);

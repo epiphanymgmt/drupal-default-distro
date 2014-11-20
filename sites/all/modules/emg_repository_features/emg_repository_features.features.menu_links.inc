@@ -48,23 +48,6 @@ function emg_repository_features_menu_default_menu_links() {
     'customized' => 0,
     'parent_identifier' => 'management_administration:admin/config/administration',
   );
-  // Exported menu link: management_administration:admin
-  $menu_links['management_administration:admin'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin',
-    'router_path' => 'admin',
-    'link_title' => 'Administration',
-    'options' => array(
-      'identifier' => 'management_administration:admin',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 9,
-    'customized' => 0,
-  );
   // Exported menu link: management_jquery-update:admin/config/development/jquery_update
   $menu_links['management_jquery-update:admin/config/development/jquery_update'] = array(
     'menu_name' => 'management',
@@ -121,27 +104,6 @@ function emg_repository_features_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 0,
     'parent_identifier' => 'management_menus:admin/structure/menu',
-  );
-  // Exported menu link: management_my-workbench:admin/workbench
-  $menu_links['management_my-workbench:admin/workbench'] = array(
-    'menu_name' => 'management',
-    'link_path' => 'admin/workbench',
-    'router_path' => 'admin/workbench',
-    'link_title' => 'My Workbench',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'My Workbench area',
-      ),
-      'identifier' => 'management_my-workbench:admin/workbench',
-    ),
-    'module' => 'system',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -20,
-    'customized' => 0,
-    'parent_identifier' => 'management_administration:admin',
   );
   // Exported menu link: management_navigation:admin/structure/menu/manage/navigation
   $menu_links['management_navigation:admin/structure/menu/manage/navigation'] = array(
@@ -279,13 +241,11 @@ function emg_repository_features_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Administration');
   t('Administration menu');
   t('Chaos Tools AJAX Demo');
   t('Home');
   t('Main menu');
   t('Management');
-  t('My Workbench');
   t('Navigation');
   t('Node export');
   t('Node export: import');

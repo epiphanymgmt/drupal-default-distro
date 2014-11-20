@@ -16,7 +16,7 @@ projects[menu_admin_per_menu][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
 projects[cck][subdir] = "contrib"
 
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 projects[ctools][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"

@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.33"
+projects[drupal][version] = "7.34"
 
 
 ;	Libraries
@@ -20,7 +20,7 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[admin_views][version] = "1.3"
 
-projects[ctools][version] = "1.4"
+projects[ctools][version] = "1.5"
 
 projects[devel][version] = "1.5"
 
