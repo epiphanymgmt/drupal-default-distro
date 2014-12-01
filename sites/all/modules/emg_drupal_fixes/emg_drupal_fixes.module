@@ -34,6 +34,8 @@ function emg_drupal_fixes_boot(){
 			if(in_array($_SERVER['SERVER_NAME'], $exceptions))
 				return;
 		}
+		if(variable_get('emg_drupal_fixes_main_domain_redirect_type', 301) == 301)
+			header("HTTP/1.1 301 Moved Permanently");
 		header('location: //' . $domain . $_SERVER['REQUEST_URI']);
 		die;	
 	}
@@ -67,13 +69,21 @@ function emg_drupal_fixes_settings($form){
 	  '#title' => t('Primary domain redirect?'),
 	  '#default_value' => variable_get('emg_drupal_fixes_main_domain_redirect', ''),
 	  '#description' => t('By entering a primary domain (ex. www.example.com), all other domains will change to this domain. (ex example.com/content will change to www.example.com/content')
-	);	
+	);
+//	Is this a permanent or temporary redirect
+	$form['emg_drupal_fixes_main_domain_redirect_type'] = array(
+	  '#type' => 'radios',
+	  '#title' => t('Is this a permanent redirect?'),
+	  '#default_value' => variable_get('emg_drupal_fixes_main_domain_redirect_type', 301),
+	  '#options' => array(301=>'Yes', 302=>'No'),
+	  '#description' => t('A permanent redirect will tell search engines to ignore the domain that brought them here and use the redirecting domain in the future.')
+	);		
 //	Exceptions to the rule, domains that will not be redirected.
 	$form['emg_drupal_fixes_main_domain_redirect_exceptions'] = array(
 	  '#type' => 'textfield',
 	  '#title' => t('Primary domain redirect exceptions'),
 	  '#default_value' => variable_get('emg_drupal_fixes_main_domain_redirect_exceptions', ''),
-	  '#description' => t('A list of domains that will not be automatically redirected to the primary domain.')
+	  '#description' => t('A list of domains that will not be automatically redirected to the primary domain. (separate domains with a space)')
 	);
 	
 //	Be able to change the view mode of nodes promoted to the homepage.
