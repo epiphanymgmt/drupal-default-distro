@@ -28,6 +28,8 @@ projects[cck][version] = "3.0-alpha3"
 
 projects[ckeditor][version] = "1.16"
 
+projects[autosave][version] = "2.2"
+
 projects[elements][version] = "1.4"
 
 projects[elfinder][version] = "2.x-dev"
@@ -59,6 +61,8 @@ projects[node_export][version] = "3.0"
 projects[node_clone][version] = "1.0-rc2"
 
 projects[normalize][version] = "1.8"
+
+projects[pagepreview][version] = "1.x-dev"
 
 projects[pathauto][version] = "1.2"
 

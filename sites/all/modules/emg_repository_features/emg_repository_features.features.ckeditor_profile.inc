@@ -51,7 +51,7 @@ function emg_repository_features_ckeditor_profile_defaults() {
             'pre_indent' => 0,
           ),
         ),
-        'css_mode' => 'none',
+        'css_mode' => 'theme',
         'css_path' => '',
         'css_style' => 'theme',
         'styles_path' => '',
@@ -64,7 +64,9 @@ function emg_repository_features_ckeditor_profile_defaults() {
         'html_entities' => 'f',
         'scayt_autoStartup' => 'f',
         'theme_config_js' => 'f',
-        'js_conf' => '',
+        'js_conf' => 'config.tabSpaces = 4;
+config.bodyClass = \'singlepage\';
+config.bodyId = \'primary\';',
         'loadPlugins' => array(
           'drupalbreaks' => array(
             'name' => 'drupalbreaks',
@@ -143,7 +145,7 @@ function emg_repository_features_ckeditor_profile_defaults() {
             'pre_indent' => 0,
           ),
         ),
-        'css_mode' => 'none',
+        'css_mode' => 'theme',
         'css_path' => '',
         'css_style' => 'theme',
         'styles_path' => '',
@@ -156,7 +158,10 @@ function emg_repository_features_ckeditor_profile_defaults() {
         'html_entities' => 'f',
         'scayt_autoStartup' => 'f',
         'theme_config_js' => 'f',
-        'js_conf' => 'config.allowedContent = true;',
+        'js_conf' => 'config.allowedContent = true;
+config.tabSpaces = 4;
+config.bodyClass = \'singlepage\';
+config.bodyId = \'primary\';',
         'loadPlugins' => array(
           'drupalbreaks' => array(
             'name' => 'drupalbreaks',

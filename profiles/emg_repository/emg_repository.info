@@ -1,7 +1,6 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
 description = ""
-exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -59,6 +58,7 @@ dependencies[] = html5_tools
 ; Node export
 dependencies[] = node_export
 ; Other
+dependencies[] = autosave
 dependencies[] = clone
 dependencies[] = elements
 dependencies[] = emg_drupal_fixes
@@ -67,6 +67,7 @@ dependencies[] = entity_dependency
 dependencies[] = entity_token
 dependencies[] = libraries
 dependencies[] = normalize
+dependencies[] = pagepreview
 dependencies[] = pathauto
 dependencies[] = r4032login
 dependencies[] = redirect
@@ -169,7 +170,7 @@ variables[node_preview_page] = '1'
 variables[node_submitted_article] = 1
 variables[pathauto_blog_pattern] = 'blogs/[user:name]'
 variables[pathauto_forum_pattern] = '[term:vocabulary]/[term:name]'
-variables[pathauto_node_pattern] = 'content/[node:title]'
+variables[pathauto_node_pattern] = '[node:menu-link:parents:join-path]/[node:title]'
 variables[pathauto_punctuation_hyphen] = 1
 variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
 variables[pathauto_user_pattern] = 'users/[user:name]'
@@ -201,6 +202,7 @@ variables[viewport_selected_pages] = '*'
 variables[viewport_width] = 'device-width'
 variables[workbench_moderation_default_state_page] = 'needs_review'
 variables[xmlsitemap_generated_last] = 1400778246
+variables[xmlsitemap_regenerate_needed] = true
 variables[xmlsitemap_settings_node_article][status] = '1'
 variables[xmlsitemap_settings_node_article][priority] = '0.5'
 variables[xmlsitemap_settings_node_page][status] = '1'

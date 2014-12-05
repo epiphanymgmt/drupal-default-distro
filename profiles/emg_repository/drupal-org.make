@@ -43,6 +43,9 @@ projects[html5_tools][subdir] = "contrib"
 projects[node_export][version] = "3.0"
 projects[node_export][subdir] = "contrib"
 
+projects[autosave][version] = "2.2"
+projects[autosave][subdir] = "contrib"
+
 projects[elements][version] = "1.4"
 projects[elements][subdir] = "contrib"
 
@@ -60,6 +63,9 @@ projects[node_clone][subdir] = "contrib"
 
 projects[normalize][version] = "1.8"
 projects[normalize][subdir] = "contrib"
+
+projects[pagepreview][version] = "1.x-dev"
+projects[pagepreview][subdir] = "contrib"
 
 projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
