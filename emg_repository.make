@@ -80,7 +80,7 @@ projects[transliteration][version] = "3.2"
 
 projects[rules][version] = "2.7"
 
-projects[google_analytics][version] = "2.0"
+projects[google_analytics][version] = "2.1"
 
 projects[uuid][version] = "1.0-alpha5"
 
@@ -106,4 +106,4 @@ projects[workbench_email][version] = "3.3"
 
 projects[workbench_moderation][version] = "1.3"
 
-projects[xmlsitemap][version] = "2.0"
+projects[xmlsitemap][version] = "2.1"
