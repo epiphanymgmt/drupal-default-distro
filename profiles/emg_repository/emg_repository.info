@@ -1,7 +1,6 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
 description = ""
-exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -156,6 +155,34 @@ variables[elfinder_settings_misc_archivers][extract][application/zip][cmd] = 'un
 variables[elfinder_settings_misc_archivers][extract][application/zip][argc] = ''
 variables[elfinder_settings_misc_archivers][extract][application/zip][ext] = 'zip'
 variables[filter_fallback_format] = 'plain_text'
+variables[googleanalytics_account] = 'UA-21151575-2'
+variables[googleanalytics_codesnippet_before] = '// Enable the Demographics and Interest Reporting
+ga(\'require\', \'displayfeatures\');
+// Enable Enhanced Link Attribution
+ga(\'require\', \'linkid\', \'linkid.js\');'
+variables[googleanalytics_custom] = '0'
+variables[googleanalytics_domain_mode] = '0'
+variables[googleanalytics_pages] = 'admin
+admin/*
+batch
+node/add*
+node/*/*
+user/*/*'
+variables[googleanalytics_privacy_donottrack] = 1
+variables[googleanalytics_roles][1] = 0
+variables[googleanalytics_roles][2] = 0
+variables[googleanalytics_roles][3] = 0
+variables[googleanalytics_roles][4] = 0
+variables[googleanalytics_tracker_anonymizeip] = 1
+variables[googleanalytics_trackfiles] = 1
+variables[googleanalytics_trackfiles_extensions] = '7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip'
+variables[googleanalytics_trackmailto] = 1
+variables[googleanalytics_trackmessages][status] = 0
+variables[googleanalytics_trackmessages][warning] = 0
+variables[googleanalytics_trackmessages][error] = 0
+variables[googleanalytics_trackoutbound] = 1
+variables[googleanalytics_visibility_pages] = '0'
+variables[googleanalytics_visibility_roles] = '0'
 variables[mail_system][default-system] = 'SmtpMailSystem'
 variables[menu_options_article][0] = 'main-menu'
 variables[menu_options_page][0] = 'main-menu'
@@ -190,6 +217,7 @@ variables[smtp_port] = '465'
 variables[smtp_protocol] = 'ssl'
 variables[smtp_username] = 'solutions@epiphanymgmt.com'
 variables[theme_default] = 'bartik'
+variables[tracking__active_tab] = 'edit-domain-tracking'
 variables[user_default_timezone] = '0'
 variables[user_pictures] = '1'
 variables[user_picture_dimensions] = '1024x1024'
