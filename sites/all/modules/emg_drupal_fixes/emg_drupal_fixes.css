@@ -8,3 +8,6 @@ th{
 }
 
 .mean-container a.meanmenu-reveal{ text-indent: 0 !important; }
+
+.element-invisible,
+.element-focusable{ left: 0; }
