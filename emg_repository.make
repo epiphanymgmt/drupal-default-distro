@@ -16,7 +16,7 @@ libraries[elfinder][type] = "library"
 ; Modules
 projects[views_bulk_operations][version] = "3.2"
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][version] = "1.3"
 
@@ -40,15 +40,15 @@ projects[entity_dependency][version] = "1.0-alpha1"
 
 projects[libraries][version] = "2.2"
 
-projects[features][version] = "2.2"
+projects[features][version] = "2.3"
 
-projects[smtp][version] = "1.0"
+projects[smtp][version] = "1.2"
 
 projects[html5_tools][version] = "1.2"
 
 projects[menu_admin_per_menu][version] = "1.0"
 
-projects[modernizr][version] = "3.2"
+projects[modernizr][version] = "3.4"
 
 projects[image_resize_filter][version] = "1.14"
 
@@ -78,7 +78,7 @@ projects[token][version] = "1.5"
 
 projects[transliteration][version] = "3.2"
 
-projects[rules][version] = "2.7"
+projects[rules][version] = "2.8"
 
 projects[google_analytics][version] = "2.1"
 

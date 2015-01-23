@@ -1,6 +1,7 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
 description = ""
+exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -183,7 +184,7 @@ variables[googleanalytics_trackmessages][error] = 0
 variables[googleanalytics_trackoutbound] = 1
 variables[googleanalytics_visibility_pages] = '0'
 variables[googleanalytics_visibility_roles] = '0'
-variables[mail_system][default-system] = 'SmtpMailSystem'
+variables[mail_system][default-system] = 'DefaultMailSystem'
 variables[menu_options_article][0] = 'main-menu'
 variables[menu_options_page][0] = 'main-menu'
 variables[menu_parent_article] = 'main-menu:0'

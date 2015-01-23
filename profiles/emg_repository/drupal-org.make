@@ -4,7 +4,7 @@ api = "2"
 
 ; +++++ Modules +++++
 
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
 projects[admin_views][version] = "1.3"
@@ -22,10 +22,10 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[features][version] = "2.2"
+projects[features][version] = "2.3"
 projects[features][subdir] = "contrib"
 
-projects[modernizr][version] = "3.3"
+projects[modernizr][version] = "3.4"
 projects[modernizr][subdir] = "contrib"
 
 projects[imagecache_token][version] = "1.x-dev"
@@ -34,7 +34,7 @@ projects[imagecache_token][subdir] = "contrib"
 projects[image_resize_filter][version] = "1.14"
 projects[image_resize_filter][subdir] = "contrib"
 
-projects[smtp][version] = "1.0"
+projects[smtp][version] = "1.2"
 projects[smtp][subdir] = "contrib"
 
 projects[html5_tools][version] = "1.2"
@@ -85,7 +85,7 @@ projects[token][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 projects[transliteration][subdir] = "contrib"
 
-projects[rules][version] = "2.7"
+projects[rules][version] = "2.8"
 projects[rules][subdir] = "contrib"
 
 projects[metatag][version] = "1.4"
