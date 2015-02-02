@@ -1,7 +1,6 @@
 ; Packaging information for emg_repository
 name = "EMG Repository"
 description = ""
-exclusive = "1"
 core = "7.x"
 ; ----------
 ; Dependencies
@@ -118,6 +117,7 @@ dependencies[] = features
 variables[additional_settings__active_tab_article] = 'edit-xmlsitemap'
 variables[additional_settings__active_tab_page] = 'edit-workflow'
 variables[admin_theme] = 'seven'
+variables[cache_class_cache_ctools_css] = 'CToolsCssCache'
 variables[comment_article] = '0'
 variables[comment_default_mode_article] = 1
 variables[comment_default_mode_page] = 1

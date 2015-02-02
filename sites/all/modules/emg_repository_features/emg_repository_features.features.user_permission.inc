@@ -1233,6 +1233,13 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'search',
   );
 
+  // Exported permission: 'use ctools import'.
+  $permissions['use ctools import'] = array(
+    'name' => 'use ctools import',
+    'roles' => array(),
+    'module' => 'ctools',
+  );
+
   // Exported permission: 'use file manager'.
   $permissions['use file manager'] = array(
     'name' => 'use file manager',

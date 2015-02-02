@@ -16,7 +16,7 @@ projects[menu_admin_per_menu][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
 projects[cck][subdir] = "contrib"
 
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 projects[ctools][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"
@@ -106,7 +106,7 @@ projects[ckeditor][subdir] = "contrib"
 projects[elfinder][version] = "2.x-dev"
 projects[elfinder][subdir] = "contrib"
 
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.5"
 projects[jquery_update][subdir] = "contrib"
 
 projects[views][version] = "3.8"
@@ -130,7 +130,7 @@ projects[workbench_email][subdir] = "contrib"
 projects[workbench_moderation][version] = "1.3"
 projects[workbench_moderation][subdir] = "contrib"
 
-projects[xmlsitemap][version] = "2.1"
+projects[xmlsitemap][version] = "2.2"
 projects[xmlsitemap][subdir] = "contrib"
 
 ; +++++ Libraries +++++

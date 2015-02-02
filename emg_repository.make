@@ -20,7 +20,7 @@ projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][version] = "1.3"
 
-projects[ctools][version] = "1.5"
+projects[ctools][version] = "1.6"
 
 projects[devel][version] = "1.5"
 
@@ -92,7 +92,7 @@ projects[Viewport][download][url] = "http://git.drupal.org/project/Viewport.git"
 projects[Viewport][type] = "module"
 projects[Viewport][version] = "1.1"
 
-projects[jquery_update][version] = "2.4"
+projects[jquery_update][version] = "2.5"
 
 projects[views][version] = "3.8"
 
@@ -106,4 +106,4 @@ projects[workbench_email][version] = "3.3"
 
 projects[workbench_moderation][version] = "1.3"
 
-projects[xmlsitemap][version] = "2.1"
+projects[xmlsitemap][version] = "2.2"
