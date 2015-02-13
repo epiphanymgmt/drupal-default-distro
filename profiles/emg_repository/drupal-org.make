@@ -109,7 +109,7 @@ projects[elfinder][subdir] = "contrib"
 projects[jquery_update][version] = "2.5"
 projects[jquery_update][subdir] = "contrib"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"

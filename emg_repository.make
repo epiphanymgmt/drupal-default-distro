@@ -94,7 +94,7 @@ projects[Viewport][version] = "1.1"
 
 projects[jquery_update][version] = "2.5"
 
-projects[views][version] = "3.8"
+projects[views][version] = "3.10"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 
