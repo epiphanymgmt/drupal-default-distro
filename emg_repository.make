@@ -18,7 +18,7 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[admin_menu][version] = "3.0-rc5"
 
-projects[admin_views][version] = "1.3"
+projects[admin_views][version] = "1.4"
 
 projects[ctools][version] = "1.6"
 
@@ -104,6 +104,6 @@ projects[workbench][version] = "1.2"
 
 projects[workbench_email][version] = "3.3"
 
-projects[workbench_moderation][version] = "1.3"
+projects[workbench_moderation][version] = "1.4"
 
 projects[xmlsitemap][version] = "2.2"
