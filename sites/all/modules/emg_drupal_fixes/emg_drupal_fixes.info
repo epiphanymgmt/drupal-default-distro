@@ -4,3 +4,5 @@ package = Other
 core = 7.x
 
 stylesheets[all][] = emg_drupal_fixes.css
+
+scripts[] = js/emg_drupal_fixes.js
