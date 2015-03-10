@@ -22,7 +22,7 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[features][version] = "2.3"
+projects[features][version] = "2.4"
 projects[features][subdir] = "contrib"
 
 projects[modernizr][version] = "3.4"
@@ -49,7 +49,7 @@ projects[autosave][subdir] = "contrib"
 projects[elements][version] = "1.4"
 projects[elements][subdir] = "contrib"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 projects[entity][subdir] = "contrib"
 
 projects[entity_dependency][version] = "1.0-alpha2"
@@ -79,7 +79,7 @@ projects[redirect][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
 projects[strongarm][subdir] = "contrib"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
 projects[transliteration][version] = "3.2"
@@ -118,7 +118,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "3.21"
+projects[webform][version] = "3.22"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"

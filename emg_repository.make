@@ -14,8 +14,6 @@ libraries[elfinder][destination] = "libraries"
 libraries[elfinder][type] = "library"
 
 ; Modules
-projects[views_bulk_operations][version] = "3.2"
-
 projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][version] = "1.4"
@@ -34,13 +32,13 @@ projects[elements][version] = "1.4"
 
 projects[elfinder][version] = "2.x-dev"
 
-projects[entity][version] = "1.5"
+projects[entity][version] = "1.6"
 
 projects[entity_dependency][version] = "1.0-alpha1"
 
 projects[libraries][version] = "2.2"
 
-projects[features][version] = "2.3"
+projects[features][version] = "2.4"
 
 projects[smtp][version] = "1.2"
 
@@ -74,7 +72,7 @@ projects[redirect][version] = "1.0-rc1"
 
 projects[strongarm][version] = "2.0"
 
-projects[token][version] = "1.5"
+projects[token][version] = "1.6"
 
 projects[transliteration][version] = "3.2"
 
@@ -96,9 +94,11 @@ projects[jquery_update][version] = "2.5"
 
 projects[views][version] = "3.10"
 
+projects[views_bulk_operations][version] = "3.2"
+
 projects[views_content_cache][version] = "3.0-alpha3"
 
-projects[webform][version] = "3.21"
+projects[webform][version] = "3.22"
 
 projects[workbench][version] = "1.2"
 

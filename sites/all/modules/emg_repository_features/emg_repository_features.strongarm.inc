@@ -182,21 +182,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1424701488;
+  $strongarm->value = 1425999693;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nk8di4';
+  $strongarm->value = 'nkyywz';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1424701502;
+  $strongarm->value = 1425980505;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -623,7 +623,7 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'maintenance_mode';
-  $strongarm->value = FALSE;
+  $strongarm->value = '0';
   $export['maintenance_mode'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -1049,14 +1049,14 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1424704713;
+  $strongarm->value = 1425980522;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_email_notification';
-  $strongarm->value = 1424701488;
+  $strongarm->value = 1425563328;
   $export['update_last_email_notification'] = $strongarm;
 
   $strongarm = new stdClass();

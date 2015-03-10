@@ -11,3 +11,6 @@ th{
 
 .element-invisible,
 .element-focusable{ left: 0; }
+
+/*	Chrome outlines by default, not cool	*/
+:focus{ outline: none; }
