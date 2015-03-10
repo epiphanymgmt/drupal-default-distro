@@ -22,9 +22,6 @@ projects[ctools][subdir] = "contrib"
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
 
-projects[emg_repository_features][version] = "1.0"
-projects[emg_repository_features][subdir] = "contrib"
-
 projects[features][version] = "2.4"
 projects[features][subdir] = "contrib"
 
