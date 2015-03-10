@@ -107,3 +107,10 @@ projects[workbench_email][version] = "3.3"
 projects[workbench_moderation][version] = "1.4"
 
 projects[xmlsitemap][version] = "2.2"
+
+; CKEditor
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
+libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
