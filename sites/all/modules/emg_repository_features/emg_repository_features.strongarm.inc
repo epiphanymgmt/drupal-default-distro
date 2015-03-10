@@ -189,7 +189,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nkyywz';
+  $strongarm->value = 'nl0huy';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -308,21 +308,24 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
     'emg_repository_features' => array(
-      'ckeditor_profile' => '48ba2a280ce2ee3bc391924c5d973db6',
-      'field_base' => '56aaf3d093a21a998d3cd4e87ddf16ae',
+      'ckeditor_profile' => 'c02ff12ac4b136d5af42bb23ba36f59b',
+      'field_base' => 'f70aefda9a26449a764024533944fba9',
       'field_instance' => '8b02508f25f2175f29104046886572da',
       'filter' => '8010cc08798f1b3bbc9ce08109f1ebe0',
       'menu_custom' => '8ca9f6f82f4b161f169a1f32bbf43f41',
-      'menu_links' => '7155538e2a7b305f9eb59af2004aba8d',
-      'taxonomy' => 'dcbaffe2f734b63a1b42ea0991c9fef9',
+      'menu_links' => '8a640ed59b8f86d9f66aaf57f5ae4d2a',
+      'taxonomy' => 'd51c12b475068c20f68b801a594aa5e4',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => '7087f971bb2fd090359a5a30e9958503',
-      'dependencies' => 'b9ec67ea495ff46a3f869c93ff6e0ec2',
+      'user_permission' => '67499b9835b8af590cdfaa82b3535b6d',
+      'dependencies' => '1f1d8799562d1969f47b2e695f146969',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
-      'variable' => '0dda7bfd61067ee51479987a70b6d739',
+      'variable' => '923c118acb0a70b8ecb0690deecd70e1',
       'workbench_email' => 'b91b2da88bc6f1b62e3e8ebcae3ae63a',
       'rules_config' => '50c56c789ae896be5c0c6c0d9be91c9f',
+      'workbench_moderation_states' => 'fc4b94051cc50a43b4ea7ce2bf202a43',
+      'workbench_moderation_transitions' => '3b04e5db685732b324c97620cb12c6cc',
+      'metatag' => '5d5c2ef38a828ba9d196cf8bbe4295dd',
     ),
   );
   $export['features_codecache'] = $strongarm;
