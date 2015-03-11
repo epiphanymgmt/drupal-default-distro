@@ -24,7 +24,7 @@ array(
           array(
             'value' => "<p>We're Sorry, but that page was not found.</p>\r\n",
             'summary' => '',
-            'format' => 'filtered_html',
+            'format' => 'full_html',
             'safe_value' => "<p>We're Sorry, but that page was not found.</p>\n",
             'safe_summary' => '',
           ),
