@@ -34,7 +34,7 @@ projects[elfinder][version] = "2.x-dev"
 
 projects[entity][version] = "1.6"
 
-projects[entity_dependency][version] = "1.0-alpha1"
+projects[entity_dependency][version] = "1.0-alpha2"
 
 projects[libraries][version] = "2.2"
 
@@ -80,7 +80,7 @@ projects[rules][version] = "2.8"
 
 projects[google_analytics][version] = "2.1"
 
-projects[uuid][version] = "1.0-alpha5"
+projects[uuid][version] = "1.0-alpha6"
 
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,

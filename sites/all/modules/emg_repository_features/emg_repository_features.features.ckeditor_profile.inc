@@ -89,9 +89,7 @@ config.bodyId = \'primary\';',
           ),
         ),
       ),
-      'input_formats' => array(
-        'filtered_html' => 'Filtered HTML',
-      ),
+      'input_formats' => array(),
     ),
     'CKEditor Global Profile' => array(
       'name' => 'CKEditor Global Profile',

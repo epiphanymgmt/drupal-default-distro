@@ -1250,18 +1250,6 @@ function emg_repository_features_user_default_permissions() {
     'module' => 'elfinder',
   );
 
-  // Exported permission: 'use text format filtered_html'.
-  $permissions['use text format filtered_html'] = array(
-    'name' => 'use text format filtered_html',
-    'roles' => array(
-      'Sub Admin' => 'Sub Admin',
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'filter',
-  );
-
   // Exported permission: 'use text format full_html'.
   $permissions['use text format full_html'] = array(
     'name' => 'use text format full_html',
