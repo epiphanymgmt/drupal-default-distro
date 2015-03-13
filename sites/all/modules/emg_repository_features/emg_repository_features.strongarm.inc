@@ -14,7 +14,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'additional_settings__active_tab_article';
-  $strongarm->value = 'edit-xmlsitemap';
+  $strongarm->value = 'edit-workflow';
   $export['additional_settings__active_tab_article'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -30,6 +30,13 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'admin_theme';
   $strongarm->value = 'seven';
   $export['admin_theme'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'autosave_article';
+  $strongarm->value = 0;
+  $export['autosave_article'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -189,7 +196,7 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nl5ire';
+  $strongarm->value = 'nl5kai';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -329,19 +336,19 @@ function emg_repository_features_strongarm() {
   $strongarm->name = 'features_codecache';
   $strongarm->value = array(
     'emg_repository_features' => array(
-      'ckeditor_profile' => 'c02ff12ac4b136d5af42bb23ba36f59b',
+      'ckeditor_profile' => 'be22e7a7a99c240616b4671d97bb6f99',
       'field_base' => 'f70aefda9a26449a764024533944fba9',
       'field_instance' => '8b02508f25f2175f29104046886572da',
-      'filter' => '8010cc08798f1b3bbc9ce08109f1ebe0',
+      'filter' => '7fd7263ad5b340488c7b75e833d91976',
       'menu_custom' => '8ca9f6f82f4b161f169a1f32bbf43f41',
-      'menu_links' => '8a640ed59b8f86d9f66aaf57f5ae4d2a',
+      'menu_links' => '4c3eba0df9af8142cd5c5661fc250530',
       'taxonomy' => 'd51c12b475068c20f68b801a594aa5e4',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
-      'user_permission' => '67499b9835b8af590cdfaa82b3535b6d',
+      'user_permission' => 'b0ba348ca6e884bc94c1836f04f187b5',
       'dependencies' => '1f1d8799562d1969f47b2e695f146969',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
-      'variable' => '923c118acb0a70b8ecb0690deecd70e1',
+      'variable' => 'a0b0aafc59e5bf2ab469fedf204b8e8c',
       'workbench_email' => 'b91b2da88bc6f1b62e3e8ebcae3ae63a',
       'rules_config' => '50c56c789ae896be5c0c6c0d9be91c9f',
       'workbench_moderation_states' => 'fc4b94051cc50a43b4ea7ce2bf202a43',
@@ -771,7 +778,8 @@ user/*/*';
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_article';
   $strongarm->value = array(
-    0 => 'status',
+    0 => 'moderation',
+    1 => 'revision',
   );
   $export['node_options_article'] = $strongarm;
 
@@ -1205,6 +1213,13 @@ user/*/*';
   $strongarm->name = 'workbench_email_queue_mail';
   $strongarm->value = 0;
   $export['workbench_email_queue_mail'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_article';
+  $strongarm->value = 'published';
+  $export['workbench_moderation_default_state_article'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

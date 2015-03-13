@@ -111,11 +111,12 @@ dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 ; Features
 dependencies[] = features
+dependencies[] = emg_repository_features
 
 ; ----------
 ; Variables
 ; ----------
-variables[additional_settings__active_tab_article] = 'edit-xmlsitemap'
+variables[additional_settings__active_tab_article] = 'edit-workflow'
 variables[additional_settings__active_tab_page] = 'edit-workflow'
 variables[admin_theme] = 'seven'
 variables[cache_class_cache_ctools_css] = 'CToolsCssCache'
@@ -197,7 +198,8 @@ variables[menu_parent_page] = 'main-menu:0'
 variables[metatag_has_revision_id] = true
 variables[metatag_schema_installed] = true
 variables[node_admin_theme] = '1'
-variables[node_options_article][0] = 'status'
+variables[node_options_article][0] = 'moderation'
+variables[node_options_article][1] = 'revision'
 variables[node_options_page][0] = 'status'
 variables[node_preview_article] = '1'
 variables[node_preview_page] = '1'
@@ -235,6 +237,7 @@ variables[viewport_maximum_scale] = '1.0'
 variables[viewport_minimum_scale] = '1.0'
 variables[viewport_selected_pages] = '*'
 variables[viewport_width] = 'device-width'
+variables[workbench_moderation_default_state_article] = 'published'
 variables[workbench_moderation_default_state_page] = 'needs_review'
 variables[xmlsitemap_generated_last] = 1417858752
 variables[xmlsitemap_settings_node_article][status] = '1'
