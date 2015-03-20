@@ -16,11 +16,14 @@ projects[menu_admin_per_menu][subdir] = "contrib"
 projects[cck][version] = "3.0-alpha3"
 projects[cck][subdir] = "contrib"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 projects[ctools][subdir] = "contrib"
 
 projects[profiler_builder][version] = "1.2"
 projects[profiler_builder][subdir] = "contrib"
+
+projects[hook_post_action][version] = "1.0-beta1"
+projects[hook_post_action][subdir] = "contrib"
 
 projects[emg_repository_features][version] = "1.0"
 projects[emg_repository_features][subdir] = "contrib"
@@ -88,7 +91,7 @@ projects[token][subdir] = "contrib"
 projects[transliteration][version] = "3.2"
 projects[transliteration][subdir] = "contrib"
 
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
 projects[metatag][version] = "1.4"
@@ -121,7 +124,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "3.22"
+projects[webform][version] = "3.23"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"

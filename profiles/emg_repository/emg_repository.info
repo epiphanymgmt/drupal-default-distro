@@ -46,6 +46,8 @@ dependencies[] = update
 dependencies[] = user
 ; Development
 dependencies[] = profiler_builder
+; Drupal
+dependencies[] = hook_post_action
 ; Frontend
 dependencies[] = modernizr
 ; Image
@@ -212,7 +214,6 @@ variables[pathauto_taxonomy_term_pattern] = '[term:vocabulary]/[term:name]'
 variables[pathauto_user_pattern] = 'users/[user:name]'
 variables[path_alias_whitelist][node] = true
 variables[path_alias_whitelist][user] = true
-variables[rules_event_whitelist][node_update] = 0
 variables[site_403] = 'r4032login'
 variables[site_404] = 'node/1'
 variables[site_frontpage] = 'node'

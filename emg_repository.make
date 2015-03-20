@@ -2,7 +2,7 @@
 core = 7.x
 
 api = 2
-projects[drupal][version] = "7.34"
+projects[drupal][version] = "7.35"
 
 
 ;	Libraries
@@ -18,7 +18,7 @@ projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][version] = "1.4"
 
-projects[ctools][version] = "1.6"
+projects[ctools][version] = "1.7"
 
 projects[devel][version] = "1.5"
 
@@ -41,8 +41,6 @@ projects[libraries][version] = "2.2"
 projects[features][version] = "2.4"
 
 projects[smtp][version] = "1.2"
-
-projects[hook_post_action][version] = "1.0-beta1"
 
 projects[html5_tools][version] = "1.2"
 
@@ -68,6 +66,8 @@ projects[pathauto][version] = "1.2"
 
 projects[r4032login][version] = "1.8"
 
+projects[hook_post_action][version] = "1.0-beta1"
+
 projects[profiler_builder][version] = "1.2"
 
 projects[redirect][version] = "1.0-rc1"
@@ -78,7 +78,7 @@ projects[token][version] = "1.6"
 
 projects[transliteration][version] = "3.2"
 
-projects[rules][version] = "2.8"
+projects[rules][version] = "2.9"
 
 projects[google_analytics][version] = "2.1"
 
@@ -100,7 +100,7 @@ projects[views_bulk_operations][version] = "3.2"
 
 projects[views_content_cache][version] = "3.0-alpha3"
 
-projects[webform][version] = "3.22"
+projects[webform][version] = "3.23"
 
 projects[workbench][version] = "1.2"
 
