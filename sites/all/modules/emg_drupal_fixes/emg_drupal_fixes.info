@@ -3,6 +3,8 @@ description = "This fixes wierd anomalies and bugs (CSS Mostly) that have not be
 package = Other
 core = 7.x
 
+dependencies[] = hook_post_action
+
 stylesheets[all][] = emg_drupal_fixes.css
 
 scripts[] = js/emg_drupal_fixes.js

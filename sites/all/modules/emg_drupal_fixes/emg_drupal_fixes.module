@@ -112,4 +112,38 @@ function emg_drupal_fixes_entity_view_mode_alter(&$view_mode, $context) {
    		$view_mode = variable_get('emg_drupal_fixes_frontpage_view_mode', 'teaser');
 }
 
-?>
+
+/**
+ * 
+ *	@implements  hook_node_postsave()
+ *
+ * Gets called after a node has been inserted/updated/deleted to database.
+ ***NOTE:  dsm (Devel)  doesn't seem to work in this function, but watchdog does.
+ *
+ * 	This is a workaround fix for the redirect module's issue where it ignores the pathauto module's URL Aliases.
+ *		Se here for details: https://docs.google.com/spreadsheet/lv?key=1WS0dHNqCKhzsSFcrStdPlUw-ajCJ-ci-WSjWfXnR3Is&gid=0&page=8
+ */
+function emg_drupal_fixes_entity_postsave($entity, $entity_type, $op) {
+//	Make sure both modules are installed.
+	if(!module_exists('pathauto') || !module_exists('redirect'))
+		return;
+			
+	list($id) = entity_extract_ids($entity_type, $entity); 
+	$path = $entity_type . '/' . $id;
+	
+//	See if this entity has aliases in both redirect's and pathauto's tables
+	$conflicts = db_query("
+		SELECT a.alias, a.source, r.rid, r.source as rsource, r.redirect
+		FROM  {url_alias} a
+		LEFT JOIN {redirect} r ON r.source= a.alias
+		WHERE r.rid IS NOT NULL
+	");
+	if($conflicts){
+		while($conflict = $conflicts->fetchObject()){
+		//	delete any conflicts from the redirect module's table, since pathauto should have priority.
+			$delete = db_query("DELETE FROM {redirect} WHERE rid = $conflict->rid");
+			$status = ($delete ? 'Successfully' : '<i>Unsuccessfully');		
+	 		watchdog('emg_drupal_fixes_delete_conflicting_redirects', "{$status} deleted a redundant redirect for {$conflict->source} ($conflict->rsource) " . __FUNCTION__);		
+		}
+	}
+}

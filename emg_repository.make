@@ -42,6 +42,8 @@ projects[features][version] = "2.4"
 
 projects[smtp][version] = "1.2"
 
+projects[hook_post_action][version] = "1.0-beta1"
+
 projects[html5_tools][version] = "1.2"
 
 projects[menu_admin_per_menu][version] = "1.0"
