@@ -25,8 +25,17 @@ function emg_drupal_fixes_boot(){
 	if(empty($domain))
 		return;
 				
-	$domain = str_replace(array('http://', 'https://'), '', $domain);
+	$protocol = (strstr('http://', $domain) ? 'http://' : '//');
+	$protocol = (strstr('https://', $domain) ? 'https://' : $protocol);
 	
+	$domain = str_replace($protocol, '', $domain);
+		
+	if(variable_get('emg_drupal_fixes_whole_site_ssl', 0) && @$_SERVER['HTTPS'] != 'on'){
+		$_SERVER['SERVER_NAME'] = '';
+		$protocol = 'https://';
+	}
+	
+//	Do not redirect non-browsers
 	if(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] != $domain){
 		$exceptions = trim(variable_get('emg_drupal_fixes_main_domain_redirect_exceptions', ''));
 		if(!empty($exceptions)){
@@ -36,7 +45,7 @@ function emg_drupal_fixes_boot(){
 		}
 		if(variable_get('emg_drupal_fixes_main_domain_redirect_type', 301) == 301)
 			header("HTTP/1.1 301 Moved Permanently");
-		header('location: //' . $domain . $_SERVER['REQUEST_URI']);
+		header('location: ' . $protocol . $domain . $_SERVER['REQUEST_URI']);
 		die;	
 	}
 }
@@ -86,6 +95,15 @@ function emg_drupal_fixes_settings($form){
 	  '#description' => t('A list of domains that will not be automatically redirected to the primary domain. (separate domains with a space)')
 	);
 	
+//	Force the entire site to be SSL
+	$form['emg_drupal_fixes_whole_site_ssl'] = array(
+	  '#type' => 'radios',
+	  '#title' => t('Should all pages on the site use the SSL?'),
+	  '#default_value' => variable_get('emg_drupal_fixes_whole_site_ssl', 0),
+			'#options' => array(0=>'No', 1=>'Yes'),
+	  '#description' => t('You must have SSL working for this site!  Enabling this on your site too early will cause an error.')
+	);
+	
 //	Be able to change the view mode of nodes promoted to the homepage.
 	$entity_info = entity_get_info('node');
 	$options = array();
@@ -99,6 +117,7 @@ function emg_drupal_fixes_settings($form){
 			'#options' => $options,
 	  '#description' => t('By Default, Drupal shows all content types promoted to the front page with the "Teaser" view mode.  This allows you to change this.')
 	);
+	
 	
 	return system_settings_form($form);
 }
