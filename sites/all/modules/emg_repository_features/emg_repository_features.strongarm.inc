@@ -189,21 +189,21 @@ function emg_repository_features_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'cron_last';
-  $strongarm->value = 1426856619;
+  $strongarm->value = 1427460379;
   $export['cron_last'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'css_js_query_string';
-  $strongarm->value = 'nlioj6';
+  $strongarm->value = 'nlvgcg';
   $export['css_js_query_string'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'ctools_last_cron';
-  $strongarm->value = 1426843380;
+  $strongarm->value = 1427404880;
   $export['ctools_last_cron'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -345,10 +345,10 @@ function emg_repository_features_strongarm() {
       'taxonomy' => 'd51c12b475068c20f68b801a594aa5e4',
       'user_role' => '3740c34dabea5c926ba56eb2e8d3e21c',
       'user_permission' => 'b0ba348ca6e884bc94c1836f04f187b5',
-      'dependencies' => '1f1d8799562d1969f47b2e695f146969',
+      'dependencies' => '278ec1a2d252d13b85ad4709947077b1',
       'image' => 'f7242fe8d00dab4a3cbac8ec653aac11',
       'node' => '8ce726dcbe42eb5d9011cc6a094d15d7',
-      'variable' => 'a0b0aafc59e5bf2ab469fedf204b8e8c',
+      'variable' => '911ec896d8b344ef1fc082ad9d7b9506',
       'workbench_email' => '9706f868e331ed320ff8f728f97e5b36',
       'rules_config' => '50c56c789ae896be5c0c6c0d9be91c9f',
       'workbench_moderation_states' => 'fc4b94051cc50a43b4ea7ce2bf202a43',
@@ -1072,7 +1072,7 @@ user/*/*';
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'update_last_check';
-  $strongarm->value = 1426856784;
+  $strongarm->value = 1427461475;
   $export['update_last_check'] = $strongarm;
 
   $strongarm = new stdClass();
