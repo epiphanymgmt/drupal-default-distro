@@ -124,7 +124,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_content_cache][version] = "3.0-alpha3"
 projects[views_content_cache][subdir] = "contrib"
 
-projects[webform][version] = "3.23"
+projects[webform][version] = "3.24"
 projects[webform][subdir] = "contrib"
 
 projects[workbench][version] = "1.2"
