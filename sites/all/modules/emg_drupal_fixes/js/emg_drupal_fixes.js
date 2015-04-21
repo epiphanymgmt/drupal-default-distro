@@ -18,5 +18,17 @@ $(function(){
 				img.attr('src', img.attr('srcset'));
 		});	
 	});
+	
+//	If the browser cannot handle SVG, replace it with a PNG
+	var $body = $('body');
+	if($body.hasClass('ie7'))
+		Modernizr.svg = false;
+	if (!Modernizr.svg) {
+		$("img[src$='.svg']").each(function(){
+		  var img = $(this);
+		  img.attr("src", img.attr('src').replace(/\.svg/, '.png'));
+		});		 
+		$body.addClass('no-svg');
+	}
 });
 })(jQuery, Drupal);

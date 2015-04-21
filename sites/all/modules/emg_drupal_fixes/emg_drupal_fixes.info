@@ -4,6 +4,8 @@ package = Other
 core = 7.x
 
 dependencies[] = hook_post_action
+dependencies[] = browserclass
+dependencies[] = modernizr
 
 stylesheets[all][] = emg_drupal_fixes.css
 
