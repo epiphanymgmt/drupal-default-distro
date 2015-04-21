@@ -38,7 +38,7 @@ projects[entity_dependency][version] = "1.0-alpha2"
 
 projects[libraries][version] = "2.2"
 
-projects[features][version] = "2.4"
+projects[features][version] = "2.5"
 
 projects[smtp][version] = "1.2"
 
