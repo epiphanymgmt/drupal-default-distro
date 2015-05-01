@@ -18,6 +18,8 @@ projects[admin_menu][version] = "3.0-rc5"
 
 projects[admin_views][version] = "1.4"
 
+projects[browserclass][version] = "1.7"
+
 projects[ctools][version] = "1.7"
 
 projects[devel][version] = "1.5"
@@ -94,7 +96,7 @@ projects[Viewport][version] = "1.1"
 
 projects[jquery_update][version] = "2.5"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 
 projects[views_bulk_operations][version] = "3.2"
 
