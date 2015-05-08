@@ -25,10 +25,7 @@ projects[profiler_builder][subdir] = "contrib"
 projects[hook_post_action][version] = "1.0-beta1"
 projects[hook_post_action][subdir] = "contrib"
 
-projects[emg_repository_features][version] = "1.0"
-projects[emg_repository_features][subdir] = "contrib"
-
-projects[features][version] = "2.4"
+projects[features][version] = "2.5"
 projects[features][subdir] = "contrib"
 
 projects[modernizr][version] = "3.4"
@@ -51,6 +48,9 @@ projects[node_export][subdir] = "contrib"
 
 projects[autosave][version] = "2.2"
 projects[autosave][subdir] = "contrib"
+
+projects[browserclass][version] = "1.7"
+projects[browserclass][subdir] = "contrib"
 
 projects[elements][version] = "1.4"
 projects[elements][subdir] = "contrib"
@@ -115,7 +115,7 @@ projects[elfinder][subdir] = "contrib"
 projects[jquery_update][version] = "2.5"
 projects[jquery_update][subdir] = "contrib"
 
-projects[views][version] = "3.10"
+projects[views][version] = "3.11"
 projects[views][subdir] = "contrib"
 
 projects[views_bulk_operations][version] = "3.2"

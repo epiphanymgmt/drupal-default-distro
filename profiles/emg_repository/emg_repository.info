@@ -62,6 +62,7 @@ dependencies[] = html5_tools
 dependencies[] = node_export
 ; Other
 dependencies[] = autosave
+dependencies[] = browserclass
 dependencies[] = clone
 dependencies[] = elements
 dependencies[] = emg_drupal_fixes
@@ -113,7 +114,6 @@ dependencies[] = xmlsitemap_menu
 dependencies[] = xmlsitemap_node
 ; Features
 dependencies[] = features
-dependencies[] = emg_repository_features
 
 ; ----------
 ; Variables
@@ -227,6 +227,8 @@ variables[smtp_protocol] = 'ssl'
 variables[smtp_username] = 'solutions@epiphanymgmt.com'
 variables[theme_default] = 'bartik'
 variables[tracking__active_tab] = 'edit-domain-tracking'
+variables[update_check_frequency] = '7'
+variables[update_notification_threshold] = 'security'
 variables[user_default_timezone] = '0'
 variables[user_pictures] = '1'
 variables[user_picture_dimensions] = '1024x1024'
@@ -238,6 +240,7 @@ variables[viewport_maximum_scale] = '1.0'
 variables[viewport_minimum_scale] = '1.0'
 variables[viewport_selected_pages] = '*'
 variables[viewport_width] = 'device-width'
+variables[webform_node_types][0] = 'webform'
 variables[workbench_moderation_default_state_article] = 'published'
 variables[workbench_moderation_default_state_page] = 'needs_review'
 variables[xmlsitemap_generated_last] = 1417858752
